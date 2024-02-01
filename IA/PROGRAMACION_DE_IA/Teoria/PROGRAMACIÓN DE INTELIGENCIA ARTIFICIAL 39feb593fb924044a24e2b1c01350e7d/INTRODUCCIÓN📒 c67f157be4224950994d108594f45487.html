@@ -1,0 +1,767 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>INTRODUCCIÓN📒</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="c67f157b-e422-4950-994d-108594f45487" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">1️⃣</span></div><h1 class="page-title">INTRODUCCIÓN📒</h1><p class="page-description"></p></header><div class="page-body"><p id="9ef50a55-0199-4496-9b51-ee2117c917f6" class=""><strong>FLOAT NUNCA USAR EN IF POR IMPRECISION❌</strong></p><p id="695aef94-be2d-46a7-85e2-7c93dd8dc55f" class=""><strong>MATH.IF ES LA REPRESENTACION DEL INFINITO♾️</strong></p><p id="001527a5-9fc6-4f22-ad82-377549a8eaaf" class=""><strong>Comentarios multilínea👇</strong></p><pre id="c1317174-6a45-4c94-b866-df56d63f13fd" class="code"><code>A= &quot;&quot;&quot;0_INTRODUCCION
+ASDA
+ASDA
+ASD&quot;&quot;&quot;
+A</code></pre><p id="32d322de-7f21-49cd-9ecc-09fdce2fffac" class=""><strong>PRINT🖌️</strong></p><p id="353c3022-682b-4cb6-84d3-26c4703d439f" class="">/t tabulador</p><p id="53d629bb-ec79-4ab4-9aa7-9490d3a9c75f" class="">/n salto de línea</p><p id="522034c4-546c-4a9c-9542-8e954cd7e23b" class="">// para poner la barra normal y escaparla</p><p id="4a31c8ee-cc62-4bf8-97a9-a795d16b6cfe" class="">para interpretar a pelo debemos de añadir la r de raw</p><pre id="bd983592-426e-45cc-9084-06f5e5c9c6a4" class="code"><code>a=r&quot;j//thhhh&quot;
+print(a)</code></pre><p id="76c15a28-4207-4933-9991-4c1fd7c7d084" class=""><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>CONCATENAR y LONGITUD🖇️</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></p><pre id="56d2e977-c2a3-4003-8aef-d18bbd44816a" class="code"><code>a=&quot;hola&quot;
+b=&quot; y adios&quot;
+c=a+b
+print(c)
+len(c)</code></pre><p id="7affd6dc-7bf5-4635-83a0-43caee5fb413" class=""><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>OBTENER CARACTER DE UNA CADENA O INTERVALO DE CARACTERES🔍</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></p><pre id="47a0d707-9339-424e-83f5-e21791312855" class="code"><code>a=&quot;hola que tal estamos&quot;
+print(a[0])
+print(a[-2])#coge el penultimo caracter
+print(a[2:6])#coge de donde a donde va la cadena de caracteres
+print(a[2:9:2])#coge de donde a donde va la cadena de caracteres y que vaya saltando
+print(a[-1::-1])#dar la vuelta a la cadena</code></pre><p id="3d62be71-9375-4ac0-93ea-61de354a24f5" class="">Si ponemos una longitud en la cadena superior a lo que mide en el caso anterior 3 si ponemos a [4] nos saltara el error.</p><p id="006de6bd-a560-4ef3-8ad6-d66664144d2c" class="">Constantes en mayúsculas.</p><p id="307d47cd-c1ea-4b8f-a575-b9c3984ed865" class=""><strong><strong><strong>ASIGNACIONES MÚLTIPLES🔍</strong></strong></strong></p><pre id="83e9f202-6839-496f-bf8b-cf96b93ce3a1" class="code"><code>a = b = c = 4
+print(a+b+c)</code></pre><p id="20cf26dd-351d-47c6-bb55-b188acd8e60d" class="">Con comas también podemos realizar asignaciones múltiples.</p><pre id="c39c731f-f29b-4b4d-8af7-4d89a40dc7a5" class="code"><code>a,b = 3,5
+print(f&quot;a vale {a} y b vale {b}&quot;)</code></pre><p id="1de0f683-1255-45a6-9b24-71e0a3a6d198" class="">Se cambia la asignación de la id una vez se vuelve cambiar el valor de asignación como en este caso ocurre con la variable a, hay que tener cuidado de si es inmutable o mutable la variable.</p><pre id="6c94009c-f02b-4fa8-ab20-e7100d7419b5" class="code"><code>a=b=3
+print(id(a), id(b))
+a=5
+print(id(a), id(b))</code></pre><p id="8c74385a-c4ba-42f7-b504-1e2a39ef6d18" class=""><strong><strong><strong><strong>FUNCION TYPE🪴</strong></strong></strong></strong></p><p id="d9ba3202-ef96-4333-8bea-77ef472ae6c8" class=""> Nos devuelve el tipo de dato que es la variable </p><pre id="b9c6f01a-0f39-48b2-89be-54bf97d5d05d" class="code"><code>a= b=3
+print(type(a))
+print(isinstance(a,int))
+print(isinstance(a,float))</code></pre><p id="9552af25-63b5-44f0-a844-268164fdac94" class=""><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>OPERADORES LÓGICOS🧮</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></p><pre id="d74a645d-086c-4000-9039-f9f805b3d2dd" class="code"><code>a=2
+b=3 
+print(b//a)#division exacta
+print(b%a)#modulo
+print(b**2)#elevado</code></pre><p id="b8868085-7dec-4933-b9ad-bf511337fa8a" class=""><strong><strong><strong>VALIDAR SI UNA LETRA O CADENA ESTÁ EN UNA CADENA🔠</strong></strong></strong></p><pre id="e6234888-86c0-4ba0-93ea-ad0a9612330a" class="code"><code>print( &quot;h&quot; in &quot;hola&quot;) 
+print( &quot;ho&quot; in &quot;hola&quot;) </code></pre><p id="63823794-5d90-4678-bbe1-e3f533df3cd6" class=""><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>DIVIDIR O UNIR EN UNA LISTA UNA SECUENCIA📊</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></p><p id="5a043071-1059-4637-9055-e486bb15e9da" class=""><strong><strong><strong><strong><strong><strong><strong>Dividir</strong></strong></strong></strong></strong></strong></strong></p><pre id="b8cf9877-471c-427d-adab-8319ef6bf736" class="code"><code>a=&quot;kpa dsakdaj dasdas&quot;
+l=a.split()
+print(l)</code></pre><p id="1adf6dd3-82ba-4bcf-833b-f36e9b9f103f" class="">Nos hace una lista con las distintas cadenas que encontramos por defecto emplea el espacio pero puede señalarle cual de ellos sería.</p><p id="0beacd89-7f49-4e6f-ad5a-8cad7f4e232b" class=""><strong><strong><strong><strong>Unir</strong></strong></strong></strong></p><pre id="5024d350-3b16-40fe-b32c-6cb3a8c621a4" class="code"><code>a=&quot;kpa dsakdaj dasdas&quot;
+l=a.split()
+print(l)s= &quot; &quot;.join(l)
+print(s)</code></pre><p id="0c01e3bf-2e14-4fa2-ae58-950e8381f308" class="">Aquí tienes algunos ejemplos de uso del condicional &quot;if&quot; en Python:</p><p id="c4d16906-7da4-41e9-89af-d7647b77f62b" class="block-color-default"><strong>BUCLE IF🤔</strong></p><p id="b98345e1-aef1-4fd4-9d66-a31e9b5f4aef" class=""><strong>Evaluación de una condición simple:</strong></p><pre id="61f8a68c-0bf9-4001-84eb-00592664a38e" class="code code-wrap"><code>x = 10
+
+if x &gt; 0:
+    print(&quot;x es mayor que 0&quot;)
+</code></pre><p id="c1ef27cf-cdd0-4635-bc9d-188e6cd8f908" class=""><strong>Uso de &quot;elif&quot; para agregar condiciones adicionales:</strong></p><pre id="75cd0f94-d5ad-47be-9811-082dbdd76e06" class="code code-wrap"><code>x = 10
+
+if x &gt; 0:
+    print(&quot;x es mayor que 0&quot;)
+elif x &lt; 0:
+    print(&quot;x es menor que 0&quot;)
+else:
+    print(&quot;x es igual a 0&quot;)
+</code></pre><p id="91f14441-00d7-4dd2-9723-add8d3ec79a2" class=""><strong>Comprobación de múltiples condiciones:</strong></p><pre id="83c0265c-6c2b-4ac5-b3fb-139e3f96620e" class="code code-wrap"><code>x = 10
+y = 5
+
+if x &gt; 0 and y &gt; 0:
+    print(&quot;x y y son mayores que 0&quot;)
+</code></pre><p id="8bc13d4f-59c0-46df-a27c-f070069493cd" class=""><strong>Comprobación de igualdad:</strong></p><pre id="7719e2d1-dba3-4fed-aaac-6ea61b7e0293" class="code code-wrap"><code>x = 10
+
+if x == 10:
+    print(&quot;x es igual a 10&quot;)
+</code></pre><p id="02217855-857d-4dc0-a847-e3f8967ca99e" class=""><strong>Uso de expresiones booleanas:</strong></p><pre id="8d3f37f8-0f2b-429d-a1bf-e504800ffb63" class="code code-wrap"><code>x = 10
+y = 5
+
+if x &gt; 0 or y &gt; 0:
+    print(&quot;x o y son mayores que 0&quot;)
+</code></pre><p id="2cede7e8-fb30-44d8-bfec-d0e2568fb5c2" class=""><strong><strong><strong><strong><strong><strong><strong><strong>BUCLE WHILE 🔁</strong></strong></strong></strong></strong></strong></strong></strong></p><p id="a6edd336-29ed-4554-88ef-53a7baa386d0" class="">El bucle <code>while</code> en Python es una estructura de control que permite repetir un bloque de código mientras una condición sea verdadera. La estructura básica del bucle <code>while</code> es la siguiente:</p><pre id="9f49a460-1a1d-4d1d-bfda-48b58393a97e" class="code code-wrap"><code>while condición:
+    # código a ejecutar mientras la condición sea verdadera
+</code></pre><p id="61b199c4-62ba-47c9-8ed4-94b8b93cc07c" class="">La condición se evalúa al comienzo de cada iteración. Si la condición es verdadera, el código dentro del bucle se ejecuta. Después de cada iteración, la condición se vuelve a evaluar. Si la condición sigue siendo verdadera, el ciclo continúa. Si la condición se vuelve falsa, el bucle se detiene y la ejecución continúa con el código después del bucle.</p><pre id="9f64ec4f-d6f3-46e7-8601-84df2fc09cbd" class="code code-wrap"><code>n = 1
+while n &lt; 5:
+    print(n)
+    n += 1
+</code></pre><p id="c346087d-4cb5-4b1a-8bf0-beb560e636f3" class="">En este ejemplo, el bucle <code>while</code> se ejecutará mientras el valor de <code>n</code> sea menor que 5. En cada iteración, se imprimirá el valor de <code>n</code> y luego se incrementará en 1. El bucle se detendrá cuando <code>n</code> sea igual o mayor que 5</p><p id="5acb1d57-d3cd-497c-9a1f-0938ab36b6eb" class=""><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>BUCLE FOR 🔁</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></p><p id="5c35ad6e-7bc9-433e-be52-02619f253228" class="">El bucle <code>for</code> en Python se utiliza para iterar sobre una secuencia (como una lista, una cadena de texto, un rango numérico, etc.) y ejecutar un bloque de código para cada elemento de la secuencia.</p><p id="02f4c5df-3947-420d-b078-38d280d7fb5c" class="">La estructura básica del bucle <code>for</code> es la siguiente:</p><pre id="db998bbd-468c-44d9-b9d6-601f531f73c7" class="code code-wrap"><code>for elemento in secuencia:
+    # código a ejecutar para cada elemento
+
+</code></pre><p id="b432fb2e-f5fa-401d-8d69-2efe58223470" class="">En cada iteración del bucle, el elemento actual de la secuencia se asigna a la variable <code>elemento</code>, y luego se ejecuta el código dentro del bucle.</p><p id="26f56a04-9228-410a-b7ba-36763f76dd46" class="">Por ejemplo, si queremos imprimir cada elemento de una lista, podemos usar un bucle <code>for</code> de la siguiente manera:</p><pre id="48537f52-5e0a-485d-9167-8d9cecc2e94a" class="code code-wrap"><code>lista = [1, 2, 3, 4, 5]
+
+for elemento in lista:
+    print(elemento)
+
+</code></pre><p id="ae34c702-b9d8-46d1-84eb-90565dc93c00" class="">En este caso, el bucle <code>for</code> se ejecutará cinco veces, una vez para cada elemento de la lista. En cada iteración, se imprimirá el valor del elemento correspondiente.</p><p id="44ecacb2-6e20-4e5b-b083-02d9f65cce03" class="">El bucle <code>for</code> también puede usar la función <code>range()</code> para generar una secuencia numérica. Por ejemplo:</p><pre id="b9754e53-32af-4b9d-8d0d-d0de2bde1de8" class="code code-wrap"><code>for i in range(5):
+    print(i)
+</code></pre><p id="8dbfa680-1308-4630-8f8d-bdc1e392ba0d" class="">En este caso, el bucle <code>for</code> se ejecutará cinco veces, una vez para cada número del 0 al 4. El valor de <code>i</code> se actualiza en cada iteración, comenzando desde 0 y aumentando en 1 en cada iteración.</p><p id="97780e87-ab97-4e06-87cb-38d01aeaf522" class="">El bucle <code>for</code> es una herramienta poderosa para recorrer y procesar elementos de una secuencia de manera eficiente en Python.</p><h2 id="18d5d915-26fe-4654-8878-9ce81cc2501f" class="">LISTAS🧾</h2><p id="9135592f-e106-45c4-9032-0ad6546a0642" class=""><strong>Definición de listas en Python</strong></p><p id="5572ff7f-c706-41b4-b3fb-d6c5f50aa50e" class="">Una lista en Python es una colección ordenada y mutable de elementos. Se pueden almacenar diferentes tipos de datos en una lista, como números, cadenas de texto, booleanos e incluso otras listas. Las listas se definen utilizando corchetes <code>[ ]</code> y separando los elementos con comas.</p><pre id="6370dea5-f544-487e-abea-c62167097aeb" class="code code-wrap"><code>lista = [1, &quot;dos&quot;, True, 3.14, [4, 5, 6]]
+</code></pre><p id="7023c6d8-3155-4be5-ae53-fc315f65a11b" class=""><strong>Principales métodos de listas en Python</strong></p><ol type="1" id="f3e2038b-0e6d-4a90-b0c4-839a86fe99ce" class="numbered-list" start="1"><li><code>append()</code>: Agrega un elemento al final de la lista.<pre id="66d4e9bd-13d3-4386-a9f0-24839ca0e25a" class="code code-wrap"><code>lista.append(&quot;nuevo elemento&quot;)
+</code></pre></li></ol><ol type="1" id="a1b2bf83-dbd7-443b-b7db-7f7479ff41a5" class="numbered-list" start="2"><li><code>insert()</code>: Inserta un elemento en una posición específica de la lista.<pre id="033e445b-f8a4-4490-a393-5784f0fdddf9" class="code code-wrap"><code>lista.insert(2, &quot;elemento insertado&quot;)
+</code></pre></li></ol><ol type="1" id="dc303c95-e72b-45f8-96f6-ca59a45c21fc" class="numbered-list" start="3"><li><code>remove()</code>: Elimina el primer elemento de la lista que coincida con el valor dado.<pre id="e00d1115-8caf-4a3c-97ab-637f3919ba2c" class="code code-wrap"><code>lista.remove(&quot;elemento a eliminar&quot;)
+</code></pre></li></ol><ol type="1" id="9cc13ae6-e0b4-45c7-9c52-426dfb578a92" class="numbered-list" start="4"><li><code>pop()</code>: Elimina y devuelve el elemento en la posición especificada de la lista. Si no se especifica una posición, se elimina y devuelve el último elemento.<pre id="9f533783-2d4b-4a84-a711-32682b0c883a" class="code code-wrap"><code>elemento = lista.pop(1)
+</code></pre></li></ol><ol type="1" id="c1a2f90e-8703-4ec3-ac35-d89a5a796525" class="numbered-list" start="5"><li><code>clear()</code>: Elimina todos los elementos de la lista.<pre id="b2185573-a7b4-4eff-b050-c58b2d27fcd8" class="code code-wrap"><code>indice = lista.index(&quot;elemento a eliminar&quot;)</code></pre></li></ol><p id="c1cbeff0-22c6-4978-a0df-1036f02ef977" class="">
+</p><ol type="1" id="79541a6f-de63-4cae-896e-d8c4e546f582" class="numbered-list" start="1"><li><code>index()</code>: Devuelve el índice del primer elemento que coincida con el valor dado.<pre id="4197a597-123c-4805-a352-cf4b35d39b52" class="code code-wrap"><code>indice = lista.index(&quot;elemento a buscar&quot;)
+</code></pre></li></ol><ol type="1" id="a74abcef-01c8-412c-8b36-91306c4e55b8" class="numbered-list" start="2"><li><code>count()</code>: Devuelve la cantidad de veces que aparece un elemento en la lista.<pre id="46ec8137-47d1-45f2-aa4e-68df1f797c9b" class="code code-wrap"><code>cantidad = lista.count(&quot;elemento a contar&quot;)
+</code></pre></li></ol><ol type="1" id="3b3a7a77-ef5f-4cf8-92a7-b7c9dcf3c74f" class="numbered-list" start="3"><li><code>sort()</code>: Ordena los elementos de la lista de forma ascendente.<pre id="e0a38c23-435d-4eb4-8eb4-ccfd0b7c251b" class="code code-wrap"><code>lista.sort()
+</code></pre></li></ol><ol type="1" id="67acb53f-d354-415d-91ed-624a77b4bc81" class="numbered-list" start="4"><li><code>reverse()</code>: Invierte el orden de los elementos en la lista.<pre id="da8b1772-e887-4015-af2c-0375e8a22b64" class="code code-wrap"><code>lista.reverse()
+</code></pre></li></ol><ol type="1" id="bec8ea5b-a931-4fc0-812b-2103d0d3bce4" class="numbered-list" start="5"><li><code>copy()</code>: Crea una copia superficial de la lista.<pre id="ec053821-9d37-47fd-810a-98d029a17d13" class="code code-wrap"><code>nueva_lista = lista.copy()
+</code></pre></li></ol><p id="96317fe0-b76e-4e45-8a5a-836a3be3834f" class=""><strong><strong><strong><strong><strong><strong>Combinar listas de forma consecutiva</strong></strong></strong></strong></strong></strong></p><pre id="d8725471-2e50-4bf5-abf6-af3252a44222" class="code"><code>lista1=[&#x27;kpa&#x27;, &#x27;dsakdaj&#x27;, &#x27;dasdas&#x27;]
+lista2=[&#x27;1&#x27;,&#x27;2&#x27;,&#x27;3&#x27;]
+lista1+lista2</code></pre><p id="6a19f469-3f13-44bc-bfcd-124d05bbaf7f" class=""><strong><strong><strong>Combinar alternando dos listas</strong></strong></strong></p><pre id="874e8520-0e10-4ed4-963a-6b8f3a6ff5fe" class="code"><code>for lista1, lista2 in zip(lista1,lista2):
+    print(lista1,lista2)</code></pre><p id="a51607d7-fad1-4863-bc63-9e1e88eef70d" class=""><strong><strong><strong><strong><strong>LISTAS POR COMPRENSIÓN 🧾</strong></strong></strong></strong></strong></p><p id="e3121aa2-0643-4497-a4b0-ffd7a9b1dead" class="">Las listas por comprensión, también conocidas como listas comprehensivas o listas generadas, son una forma concisa y poderosa de crear listas en Python. Permiten combinar un bucle <code>for</code> con una expresión dentro de corchetes <code>[ ]</code> para generar una lista de forma rápida y sencilla.</p><p id="458bcb82-7c59-4db9-b177-3391d72a636d" class="">La sintaxis básica de una lista por comprensión es la siguiente:</p><pre id="c26b592c-99a0-4b3d-8a4a-f0c3596a7d56" class="code code-wrap"><code>[nombre_variable for elemento in secuencia]
+</code></pre><p id="42f8265c-bb82-4ce4-9425-33b01a113515" class="">Donde <code>nombre_variable</code> es el nombre de la variable que se utilizará para cada elemento de la secuencia, <code>elemento</code> es el elemento actual de la secuencia y <code>secuencia</code> es la secuencia de la cual se generarán los elementos de la lista.</p><p id="5e95d926-f52c-467d-9378-74fa4cb9869f" class="">Por ejemplo, si queremos generar una lista con los cuadrados de los números del 1 al 5, podemos usar una lista por comprensión de la siguiente manera:</p><pre id="ca10edda-856f-4cfb-af33-b19c0d098ea9" class="code code-wrap"><code>cuadrados = [x**2 for x in range(1, 6)]
+</code></pre><p id="4c116340-88aa-4697-87e0-b0cf402abd89" class="">En este caso, la variable <code>x</code> toma los valores del 1 al 5 en cada iteración del bucle <code>for</code>, y se genera un elemento de la lista por cada valor de <code>x</code> elevado al cuadrado.</p><p id="03a6c9f9-cc21-4427-80ad-6d402dea6e0b" class="">Las listas por comprensión también pueden incluir condiciones para filtrar los elementos de la secuencia. Por ejemplo, si queremos generar una lista con los números pares del 1 al 10, podemos usar una lista por comprensión con una condición <code>if</code> de la siguiente manera:</p><pre id="df39b553-b8cb-4f6a-bbf9-e9abd299eaea" class="code code-wrap"><code>pares = [x for x in range(1, 11) if x % 2 == 0]
+</code></pre><p id="b3a07480-764b-44ba-8f2b-39be9eefecc8" class="">En este caso, solo se generan elementos de la lista para aquellos números <code>x</code> que cumplan la condición <code>x % 2 == 0</code>, es decir, que sean divisibles por 2.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

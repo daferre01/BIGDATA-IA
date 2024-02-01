@@ -1,0 +1,758 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>NUMPY</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="45fa85b1-304e-4f72-b887-f7d7143d1d1b" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">🧮</span></div><h1 class="page-title">NUMPY</h1><p class="page-description"></p></header><div class="page-body"><p id="15aa3fe0-e6f4-420a-971a-b7de8313e34c" class="">NumPy es una biblioteca fundamental en Python para computación numérica, sirve para tratar grandes cantidades de datos </p><pre id="c1d2d580-a3a3-40cf-ad08-aba388572c98" class="code"><code>import numpy as np</code></pre><p id="7fd91379-ef58-4b49-9231-64e4663c9300" class="">Este es un ejemplo de un array en numpy :</p><pre id="6b6acff5-373f-47e3-bd2f-a1ce670aaf8f" class="code"><code>import numpy as np
+x=np.array([1,2,3])
+print(x)
+print(x.ndim)</code></pre><p id="9b921b26-1021-48e5-87a9-9edbb08fc2ac" class="">Su tipo es de &lt;class &#x27;numpy.ndarray&#x27;&gt; un vector o array unidimensional</p><p id="40d6e55a-8ed0-4bcd-ac4d-c15e9a2ca628" class="">En este otro caso podemos observar una matriz bidimensional con 2 filas y 3 columnas</p><pre id="c19f311e-492b-402a-861e-069456551386" class="code"><code>import numpy as np
+x=np.array([[1,2,3],[4,5,6]])
+print(x)
+print(type(x))
+print(x.ndim)
+print(x.shape)
+print(x.dtype)</code></pre><pre id="1e1a8dd4-6eec-4366-accd-6c21b19e2def" class="code"><code>[[1 2 3]
+ [4 5 6]]
+&lt;class &#x27;numpy.ndarray&#x27;&gt;
+2
+(2, 3)
+int32</code></pre><p id="744dde80-a08b-4036-8d84-a79d8f48bb15" class="">Podemos elegir el tipo de dato que deben ser los arrays pasados</p><pre id="cc8b7622-a9a5-4422-9aeb-915fbe179a10" class="code"><code>import numpy as np
+x=np.array([[1,2,3],[4,5,6]])
+x=x.astype(float)
+print(x)
+print(type(x))
+print(x.ndim)
+print(x.shape)
+print(x.dtype)</code></pre><pre id="edb7c96d-fa44-4b19-8935-adba45f596d0" class="code"><code>[[1. 2. 3.]
+[4. 5. 6.]]
+&lt;class &#x27;numpy.ndarray&#x27;&gt;
+2
+(2, 3)
+float64</code></pre><h3 id="f481efd1-970c-4957-90bc-33ba57e3bbd9" class="">x.size</h3><p id="595e974e-3096-49a3-a6b0-c48cca598f71" class="">Devuelve el número de elementos que presenta el array</p><pre id="0964de13-7c47-4333-91d9-3c715853159c" class="code"><code>import numpy as np
+x=np.array([[1,2,3],[4,5,6]])
+print(x.size)
+
+#Devuelve 6</code></pre><h3 id="3174e15f-e295-4e48-b65d-55aa53f1e2b1" class="">reshape</h3><p id="f284d0a3-0dc1-4d0e-8a1a-7373f6a8b19a" class="">Actúa diciéndonos el reformateo en filas y columnas el array</p><pre id="6bce3638-cc49-4276-8793-d7eaf5c20b70" class="code"><code>x=np.reshape(x,(3,2))
+x.shape
+print(x)</code></pre><h3 id="e4443a8c-0906-4993-b083-22c2ec94e741" class="">zeros</h3><p id="40a9143d-520d-415d-8f91-772830f39301" class="">Creacion de arrays todo con ceros</p><pre id="01b3a757-f9d3-4c28-a07c-8b12ca5de105" class="code"><code>y=np.zeros((5,2))
+print(y)</code></pre><h3 id="a6fbab54-d7bc-48d4-9cc4-8a4fe4661e6b" class="">full</h3><p id="3609ebab-1af6-410c-a2ad-6b36578e37b3" class="">Llena de un valor la matriz </p><pre id="d58d1dae-88c9-4f59-9fae-da5f1cf219c1" class="code"><code>y=np.full((5,2),5)
+print(y)</code></pre><h3 id="fedb1d4a-8f3b-455f-ba13-fdd3804b6f82" class="">eye Matriz identidad</h3><p id="013e09a4-46ab-4156-89e5-3a1f992b21e8" class="">Diagonal de una matriz teniendo valor uno la diagonal y cero para el resto </p><pre id="2ba01a5f-e7e6-40d4-b463-8ae48cc8a3dd" class="code"><code>y=np.eye(7)
+print(y)</code></pre><pre id="70a75d24-4459-4c66-9b11-58fb5e9d975a" class="code"><code>[[1. 0. 0. 0. 0. 0. 0.]
+[0. 1. 0. 0. 0. 0. 0.]
+[0. 0. 1. 0. 0. 0. 0.]
+[0. 0. 0. 1. 0. 0. 0.]
+[0. 0. 0. 0. 1. 0. 0.]
+[0. 0. 0. 0. 0. 1. 0.]
+[0. 0. 0. 0. 0. 0. 1.]]</code></pre><h3 id="104257ae-d44d-402d-a6cb-ebe0f568e891" class="">arange</h3><p id="b58c7488-0a82-43d3-b994-a142b3243621" class="">Genera un array desde un valor dado hasta otro pasandole el salto </p><pre id="c38a423f-95fd-4e52-9120-bd91018f8cb0" class="code"><code>x=np.arange(2,6,0.5)
+print(x)
+# [2.  2.5 3.  3.5 4.  4.5 5.  5.5]
+x=np.arange(6)
+print(x)
+# [0 1 2 3 4 5]</code></pre><h3 id="f5171b9c-113a-4b44-9608-5fe04bd41a46" class="">linspace</h3><p id="cf64d336-b13f-4d06-a747-81a9ba5fae0d" class="">Damos dos valores desde hasta y el numero de divisiones que tendra por ejemplo le decimos desde 2 hasta 8 y le dices que lo divida en 4 soltará el 2,4 el 6 y el 8. Si no se pone las divisiones en cuanto coge por defecto 50</p><pre id="2d9bf01b-3af1-466a-b8e6-e89ed5da7b58" class="code"><code>x=np.linspace(1,5,9)
+print(x)</code></pre><h2 id="8fa61fa3-1349-4241-b7b8-caa6f1c427a0" class="">Random</h2><h3 id="e10efec7-ad73-4260-b986-8e1c9a44d6b6" class="">Seed- Inicializa el valor de random, semilla por la que empieza </h3><pre id="a81c79df-ab02-49f8-998a-947f827227b8" class="code"><code>x=np.random.seed(42)
+print(x)</code></pre><h3 id="dbec63c9-244b-411a-9740-a7f03318872a" class="">Random entero</h3><pre id="c3e17f98-97fe-4dc8-a9cf-ae1e2f0b69fe" class="code"><code>x=np.random.randint(1,10)
+print(x)</code></pre><h3 id="91c84734-f390-445b-8074-1c727d236b80" class="">Random random</h3><p id="aba41232-4a06-4056-840d-2a8cae3fb972" class="">Para generar numeros random entre 0 y 1 debemos generarlo con random.random</p><pre id="d4a72ca2-1fa2-4af7-a0f2-0e147186b53d" class="code"><code>x=np.random.random(9)
+print(x)</code></pre><h3 id="cf556a10-3683-417d-ad1a-ee0095d2c6fc" class="">Random uniform</h3><p id="1c0f615a-8c07-45af-9cd1-ab66a15cab73" class="">Para generar entre un rango de numeros valores de tipo float empleamos:</p><pre id="3fdd7a4c-21f4-4113-9be1-203c6f98b7a6" class="code"><code>x=np.random.uniform(10,20,size=10)
+print(x)
+</code></pre><h3 id="d54932b4-35f5-4d41-9071-37180298faa7" class="">Random normal</h3><p id="c8e7a79f-9a92-4a3b-a9d6-3087febb60db" class="">Distribución normal a la hora de realizar una randomización de números</p><pre id="024b7a89-4ffc-43a3-af54-73f4d2ca9241" class="code"><code>np.random.normal(10,20,size=10)
+##10 media 20 desviacion y size para el tamaño de la muestra</code></pre><h3 id="e7d69a8f-dea2-4616-81cf-84c0f6c868be" class="">Choice</h3><p id="e3d4f0a2-9426-4bb2-a800-2000a8b74b04" class="">Que la propiedad varie conforme a la probabilidad dada. En el ejemplo dado podemos observar  que el numero 1 tiene muchas mas posibilidades. Los modelos de lenguaje como chat gpt usan esto para determinar la siguiente palabra para hablar</p><pre id="0d0b6ab1-324f-4282-a0db-504da11657e9" class="code"><code>x=np.random.choice([1,2,3,4,5,6],size=10, p=[0.5,0.1,0.1,.1,.1,.1])
+print(x)</code></pre><h3 id="08d8ee19-8452-4fa4-b660-861443d866c6" class="">Nan</h3><p id="4b6acaaa-2146-4247-a8be-6ebeeba0aa1b" class="">Es un número invalido</p><pre id="81c28b79-dfd9-460e-b190-f1ad26a9b08d" class="code"><code>x=np.nan
+print(x)</code></pre><h3 id="16f7f025-63f7-4719-8f22-9a0fdc86aa25" class="">Inf </h3><p id="b209cdbb-a683-4d8e-b12b-98934e75c7a9" class="">Representa el infinito</p><pre id="e3aad329-8314-4410-9257-ace195b2bc71" class="code"><code>y=np.inf 
+print(y)</code></pre><h2 id="32c573c0-f975-4884-b607-efd9eb3c20a6" class="">Seleccion de elemento </h2><h3 id="a49901a4-4ae0-4533-a8fe-ad1f4559ea44" class="">Un elemento único:</h3><pre id="28439ff2-4260-41bd-9352-881353297fcf" class="code"><code>import numpy as np
+x=np.array([[1,2,3],[4,5,6]])
+x=x.astype(int)
+print(x)
+x[0,1]#fila1 columna 0</code></pre><h3 id="4e09ca35-827e-4222-abd8-d2b4c5daad9f" class="">Un rango:</h3><pre id="6d03fb83-a3aa-4752-83ce-c21479fbc270" class="code"><code>import numpy as np
+x=np.array([[1,2,3],[4,5,6]])
+x=x.astype(int)
+print(x)
+x[0:2,1:3]#fila de la 0 a la 2 columna de la 1 a la 3</code></pre><h3 id="55d4a594-984c-4f0b-9a54-5d187069e3f4" class="">Varios elementos </h3><pre id="facf616d-1fa7-41c9-a4f4-840d2903bed0" class="code"><code>import numpy as np
+x=np.array([[1,2,3],[4,5,6]])
+x=x.astype(int)
+print(x)
+x[[0,1],[2,2]]#fila 0 columna 2 y fila 1 columna 2
+array([3, 6])</code></pre><h3 id="5ad766b0-b4b4-423c-b5e5-e37c83454673" class="">Cambiar dos valores de la matriz</h3><p id="c541d8a6-8b70-404a-965f-0dc11bf19c66" class="">Debemos seleccionar un rango de valores a cambiar</p><pre id="ddf78466-b25a-4611-a2ab-6bb8c29708ee" class="code"><code>import numpy as np
+x=np.array([[1,2,3],[4,5,6],[7,8,9]])
+x[1:3,1:2]=[[11],[11]]
+print(x)</code></pre><h3 id="fdc4e648-b2c0-4eea-acdb-05e2e4632df5" class="">Array booleano por condición</h3><p id="3e2276bf-ec7f-49c1-beb4-56d5facbcabc" class="">Se crea un nuevo array que solo es true cuando se cumple la condición.</p><pre id="e95f55f5-9b51-4187-a280-e08537da52fb" class="code"><code>x=np.array([[1,2,3],[4,5,6],[7,8,9]])
+
+print(x&gt;3)
+print(x[x&gt;3])# muestra solo los valores que cumplan esa condicion</code></pre><h3 id="693e532c-b9cc-4d04-8278-4cb1183ff082" class="">Dar la vuelta a la condicion</h3><p id="e52b1cb8-c410-44fb-b360-8085479230e0" class="">Por ejemplo a partir del anterior que nos daba los valores mayores que 3 obtener los valores menores</p><pre id="b0cb38f0-dffa-415d-b04b-ac241feb7e5f" class="code"><code>import numpy as np
+x=np.array([[1,2,3],[4,5,6],[7,8,9]])
+a=x&gt;3
+print(x&gt;3)
+
+b=np.bitwise_not(a)
+print(b)</code></pre><h3 id="8c172d97-f738-461b-a698-37ef01e913fc" class="">Parámetro axis eje</h3><p id="85f62e26-6f98-467f-9019-fa52fac8a180" class="">El parametro axis significa por donde tiene que tomar referencia </p><p id="ec7649d4-23bd-446a-8d90-8017cea05668" class="">axis =0 horizontal</p><p id="8a376820-3e1a-4c11-a388-7a3732f437f4" class="">axis =1 vertical</p><p id="07586847-e0d2-4f83-9c1f-0ed3b28a802d" class="">Rollo suma solo las horizontales</p><p id="738e8802-f5bf-45e9-8693-aa486ba3c646" class=""><code>np.concatenate([a, b], axis=0)</code></p><p id="e52b47fb-7cca-4d27-81d1-7f2dd856652b" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
