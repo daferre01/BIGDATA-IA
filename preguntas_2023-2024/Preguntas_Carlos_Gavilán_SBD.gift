@@ -1,0 +1,58 @@
+
+¿Cuál de las siguientes afirmaciones describe mejor Selenium WebDriver?
+{
+~Una herramienta para la automatización de procesos de negocio.
+~Un entorno de desarrollo integrado (IDE) para escribir scripts de automatización.
+=Una interfaz de programación que permite interactuar con navegadores web.
+}
+
+¿Cuál es el principal lenguaje de programación compatible con Selenium WebDriver?
+{
+~Java.
+~C#.
+=Python.
+}
+
+¿Cuál de las siguientes estadísticas describe mejor la tendencia central de un conjunto de datos?
+{
+=Media.
+~Mediana.
+~Moda.
+}
+
+Si tienes el siguiente conjunto de datos: 5, 8, 10, 10, 12, 15, ¿cuál es la mediana?
+{
+~8.
+=10.
+~12.
+}
+
+¿Qué medida de tendencia central es más resistente a los valores atípicos en un conjunto de datos?
+{
+~Media.
+=Mediana.
+~Moda.
+}
+
+Si tienes el siguiente conjunto de datos: 2, 4, 4, 6, 6, 6, 8, ¿cuál es la moda?
+{
+~2.
+~4.
+=6.
+}
+
+¿Cuál es la fórmula matemática para calcular la media de un conjunto de datos?
+{
+=Sumar todos los valores y dividir por la cantidad de valores.
+~Ordenar los valores y seleccionar el valor central.
+~El valor que aparece con mayor frecuencia en el conjunto de datos.
+}
+
+¿Qué medida de tendencia central es más afectada por valores extremos en un conjunto de datos?
+{
+=Media.
+~Mediana.
+~Moda.
+}
+
+

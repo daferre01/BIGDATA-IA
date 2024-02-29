@@ -1,0 +1,49 @@
+BDA
+
+1 - Como se crea una base de datos en mongoDB{
+#- use nombre_database
+- create database nombre_database
+- create_database("nombre_database")
+- create_db("nombre_database")
+}
+
+2 - Como se inserta un registro en un documento{
+- db.collection_name.insert({insertar_datos})
+#- db.collection_name.insertOne({insertar_datos})
+- db.collection_name.addOne({insertar_datos})
+- db.collection_name.add({insertar_datos})
+}
+
+3 - Como se cuentan los registros{
+#- db.estudantes.countDocuments()
+- db.estudantes.count_registry()
+- db.estudantes.count_documents()
+- db.estudantes.countRegistry()
+}
+
+4 - ¿Que comando te devuelve todos los registros?{
+- db.estudantes.find()
+- db.estudantes.find({})
+#- find() y find({}) son devuelven todos los registros
+- Ninguna de las anteriores es correcta
+}
+
+5 - Para optimizar la velocidad de mongoDB tenemos que utilizar sort lo antes posible y find o $match lo mas tarde posible{
+- Verdadero
+= - Falso
+}
+
+6 - Ficheiro de configuración do Agent Flume{
+#-/flume/conf/flume.conf
+-/flume/conf/flume.info
+-/flume/conf/flume.config
+-/flume/conf/flume.sh
+}
+
+7 - Como ejecutamos un comando en hdfs{
+- hdfs dfs -comando
+- dfs -comando
+- dfs comando
+- hdfs dfs comando
+}
+

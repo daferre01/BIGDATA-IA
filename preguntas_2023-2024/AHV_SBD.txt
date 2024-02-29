@@ -1,0 +1,60 @@
+SBD
+1. ¿Cuál de las siguientes bibliotecas de Python se utiliza comúnmente para conectarse a MongoDB?
+   a) pymongo
+   b) sqlalchemy
+   c) requests
+   Respuesta correcta: a) pymongo
+
+2. ¿Qué método de pymongo se utiliza para establecer una conexión con una base de datos MongoDB?
+   a) connect()
+   b) create_connection()
+   c) MongoClient()
+   Respuesta correcta: c) MongoClient()
+
+3. ¿Cuál de las siguientes afirmaciones describe mejor a Pandas?
+   a) Una biblioteca para manipulación y análisis de datos en Python.
+   b) Una base de datos NoSQL.
+   c) Una biblioteca para visualización de datos en Python.
+   Respuesta correcta: a) Una biblioteca para manipulación y análisis de datos en Python.
+
+4. ¿Qué método de Pandas se utiliza para cargar datos desde una base de datos MongoDB?
+   a) read_sql()
+   b) read_mongo()
+   c) read_csv()
+   Respuesta correcta: b) read_mongo()
+
+5. ¿Cuál de las siguientes estructuras de datos es utilizada comúnmente para representar datos en Pandas?
+   a) DataFrame
+   b) Array
+   c) Dictionary
+   Respuesta correcta: a) DataFrame
+
+6. ¿Qué método de Pandas se utiliza para guardar un DataFrame en un archivo CSV?
+   a) to_csv()
+   b) save_csv()
+   c) exportar_csv()
+   Respuesta correcta: a) to_csv()
+
+7. ¿Qué función de Pandas se utiliza para eliminar filas con valores nulos de un DataFrame?
+   a) dropna()
+   b) remove_nulls()
+   c) clean_data()
+   Respuesta correcta: a) dropna()
+
+8. ¿Qué método de Pandas se utiliza para calcular el promedio de una columna en un DataFrame?
+   a) mean()
+   b) average()
+   c) median()
+   Respuesta correcta: a) mean()
+
+9. ¿Qué método de Pandas se utiliza para ordenar un DataFrame por los valores de una columna específica?
+   a) sort_values()
+   b) order_by()
+   c) sort()
+   Respuesta correcta: a) sort_values()
+
+10.¿Qué función de Pandas se utiliza para convertir una columna que contiene listas en varias filas duplicando las demás columnas?
+   a) expand
+   b) split
+   c) explode
+

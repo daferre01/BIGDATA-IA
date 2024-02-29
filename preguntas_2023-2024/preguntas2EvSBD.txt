@@ -1,0 +1,26 @@
+1. ¿Cuál de las siguientes afirmaciones es INCORRECTA?
+~La media es la suma de todos los valores dividida por el número de datos.
+~La mediana es el valor que divide al conjunto de datos en dos mitades iguales.
+~La moda es el valor que más se repite en un conjunto de datos.
+=Los cuartiles son valores que dividen al conjunto de datos en cuatro partes iguales.
+
+2. Un conjunto de datos tiene una media de 10 y una mediana de 11. ¿Qué podemos concluir?
+~La mayoría de los datos son mayores que 10.
+~La mayoría de los datos son menores que 11.
+~La distribución de los datos es simétrica.
+=La distribución de los datos es asimétrica a la derecha.
+
+3. ¿Cuál de las siguientes medidas es más sensible a la presencia de valores atípicos?
+=La media
+~La mediana
+~La moda
+~Los cuartiles
+
+
+4. El tercer cuartil (Q3) de un conjunto de datos representa:
+
+~El valor que divide al conjunto de datos en dos mitades iguales.
+~El valor que deja por debajo el 25% de los datos.
+=El valor que deja por debajo el 75% de los datos.
+~El valor que deja por debajo el 50% de los datos.
+

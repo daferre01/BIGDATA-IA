@@ -1,0 +1,34 @@
+1. Flume es util para pasar archivos en formato avro mediante escritores y escuchadores{
+=Verdadero
+~Falso
+~Solo cuando se usa mediante kafka
+}
+
+2. Kafka es una tecnología anticuada y en desuso que nos permite traducir archivos de formato bson a .json{
+~Verdadero
+=Falso
+}
+
+3. {=Kafka =IAG =kafka} es muy utilizado para el analisis de eventos de sensores en compañias a gran escala. Posee topics y canales que permiten una mejor distribiucion de los datos
+
+4. Es posible hacer consultas complejas contra apache hive (agregaciones, inner joins, etc){
+~Verdadero
+=Falso
+}
+
+5. avro utiliza un formato{
+=bson
+~json
+~xml
+}
+
+6. {=Kafka, kafka} es facilmente escalabra mientras que {=Flume,=flume} no lo es
+
+7.Es MongoDB una base de datos SQL o No-SQL:{
+~No-SQL
+=SQL
+}
+
+
+
+

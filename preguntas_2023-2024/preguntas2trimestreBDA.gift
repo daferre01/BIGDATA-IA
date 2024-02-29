@@ -1,0 +1,97 @@
+1.- Que significan las siglas ACID
+
+~ Atomic Consistency Isolation Durability
+
+~ Atomicity Consistency Iteration Default
+
+= Atomicity Consistency Isolation Durability
+
+~ Atomicity Consistency Inteligence Durability
+
+
+2.- Cual de estas opciones no permite borrar en mongodb
+
+~ db.coleccion.deleteOne/deleteMany(filtro, opcións)
+
+= db.collection.findManyAndDelete()
+
+~ db.collection.bulkWrite()
+
+~ db.collection.findOneAndDelete()
+
+3. Cuales son las caracteristicas de Apache Hive:
+ tipo de datos, linguaxe, particionado,JDBD e ODBC.
+
+~ Estruturados ,HiveQL, Soporta particionado, No soportados
+
+~ Desestructurados ,SQL , no soporta particionado, Soportados
+
+~ Semiestruturados ,HiveQL , Soporta particionado, Soportados
+
+= Estruturados ,HiveQL , Soporta particionado, Soportados
+
+4. Completa la siguiente consulta de mongodb para filtrar os estudantes que sexan do titor Jose Sánchez e teñan máis de 20 anos
+
+~ db.estudantes.____( {titor: "Jose Sánchez", idade: {___: 20}})
+
+= find / $gt
+
+5. Cuales de estos es un tipo de estructura que NO soporte Apache Hive?
+
+~ Táboas: directorios de HDFS
+
+~ Particións: divisións das táboas
+
+~ Buckets: divisións das particións
+
+= Oracle Database: base de datos relacional.
+
+6. Cual de las siguientes  herramientas es la mas adecuada para importar datos  en tiempo real en un sistema de análisis de big data?
+
+= Apache Kafka
+
+~ Apache Hive
+
+~ Sqoop
+
+~ Apache Hadoop
+
+7. Que herramienta usariamos para cargar datos entre Apache Hadoop y bases de datos relaccionales como MySQL?
+
+~ Apache Kafka
+
+~ Apache Hive
+
+= Sqoop
+
+~ Apache Hadoop
+
+8. Para procesar y consultar grandes conjuntos de datos estructurados, que herramienta de apache ussariamos?
+
+~ Apache Kafka
+
+= Apache Hive
+
+~ Sqoop
+
+~ Apache Hadoop
+
+9. Cual es la sintanxis correcta en MoongoDB  para buscar documentos donde la clave edad sea igual a 20?
+
+~ {edad: {$lt: 20}}
+
+~ {edad: {$lte: 20}}
+
+~ {edad: {$gt: 20}}
+
+=  {edad: 20}
+
+10. Cual es la sintanxis correcta en MoongoDB  para buscar documentos donde el valor del campo "tutor" no sea igual a "Jose Sánchez"?
+
+~ {tutor: {$lt: "Jose Sánchez"}}
+
+= {tutor: {$ne: "Jose Sánchez"}}
+
+~ {tutor: {$gt: "Jose Sánchez"}}
+
+~ {tutor: {$lte: "Jose Sánchez"}}

@@ -1,0 +1,50 @@
+1. Para conectar con mongodb deesde python cuales son los tres parametros que debemos pasar en la siguiente cadena:
+    cli_mongo = MongoClient(f"mongodb+srv://{______}:{______}@{______}/test")
+
+~ USERNAME , PASSWORD , TABLE
+
+~ SERVER , USERNAME , PASSWORD
+
+~ HOST, USERNAME, TABLE
+
+= USERNAME , PASSWORD , HOST   
+
+2.- Que biblioteca de Python es mas adecudad para escrapear webs con formularios y botones 
+
+~ BeautifulSoup
+
+= Selenium 
+
+~ Requests
+
+~ Urllib
+
+3. Que utilizamos en selenium para esperar a que aparezca un elemento en la pagina antes de interactuar con el?
+
+~ time.sleep()
+
+~ .sleep()
+
+= WebDriverWait
+
+~ Wait
+
+4. Cual de estas maneras no podemos hacer un find_element en Selenium utilizando By.?
+
+~ By.ID
+
+~ By.ClassName
+
+= By.Xpath
+
+~ By.XPATH
+
+5. Que libreria de python se utiliza para scraping en paginas web?
+
+~ Matplotlib
+
+~ Time
+
+~ Pandas
+
+= Selenium

@@ -1,0 +1,65 @@
+1.¿Cuál de las siguientes NO es una característica de MongoDB?
+~Es una base de datos NoSQL.
+=Es una base de datos relacional.
+~Almacena datos en documentos JSON.
+~Soporta transacciones ACID.
+
+2.¿Qué tipo de datos NO se pueden almacenar en MongoDB?
+~Cadenas de texto.
+~Números enteros.
+~Fechas.
+=Archivos binarios.
+
+3. ¿Cuál es el comando que se utiliza para insertar un documento en una colección de MongoDB?
+=db.collection.insertOne()
+~db.collection.save()
+~db.collection.update()
+~db.collection.find()
+
+4. ¿Cuál es el comando que se utiliza para encontrar documentos en una colección de MongoDB?
+~db.collection.insert()
+~db.collection.save()
+~db.collection.update()
+=db.collection.find()
+
+5. ¿Cuál es el comando que se utiliza para eliminar un documento en una colección de MongoDB?
+=db.collection.deleteOne()
+~db.collection.save()
+~db.collection.update()
+~db.collection.find()
+
+6. ¿Qué es Kafka?
+~Una base de datos NoSQL.
+=Un sistema de mensajería distribuido.
+~Un framework de desarrollo web.
+~Un lenguaje de programación.
+
+7. ¿Qué son los "topics" en Kafka?
+~Los servidores que forman parte del clúster de Kafka.
+~Las unidades de almacenamiento de datos en Kafka.
+~Los tipos de datos que se pueden enviar a través de Kafka.
+=Las categorías en las que se clasifican los mensajes en Kafka.
+
+8. ¿Qué son los "producers" en Kafka?
+~Los servidores que forman parte del clúster de Kafka.
+=Los programas que envían mensajes a Kafka.
+~Los programas que consumen mensajes de Kafka.
+~Las unidades de almacenamiento de datos en Kafka.
+
+9. ¿Qué son los "consumers" en Kafka?
+~Los servidores que forman parte del clúster de Kafka.
+~Los programas que envían mensajes a Kafka.
+=Los programas que consumen mensajes de Kafka.
+~Las unidades de almacenamiento de datos en Kafka.
+
+10. ¿Qué es ZooKeeper en el contexto de Kafka?
+~Un sistema de mensajería distribuido.
+~Un framework de desarrollo web.
+~Un lenguaje de programación.
+=Un servicio de coordinación para el clúster de Kafka.
+
+5. ¿Cuál es la principal ventaja de usar Kafka?
+~Es una base de datos NoSQL.
+=Es un sistema de mensajería escalable y tolerante a fallos.
+~Es un framework de desarrollo web.
+~Es un lenguaje de programación

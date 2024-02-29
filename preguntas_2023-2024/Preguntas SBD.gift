@@ -1,0 +1,29 @@
+Preguntas SBD:
+¿El operador $unwind en una operacion de aggregate que función realiza?{
+=Deconstruye un array del input a un output
+~Deconstruye un objeto del input a un output
+~Deconstruye un string de input a palabras individuales en un output
+~Ninguna es correcta
+}
+¿Si quisieramos contar la cantidad de algo en una base de datos de mongo que operadores usariamos?{
+~$count
+~$sum
+~$group y $count
+=$group y $sum
+}
+Con cual de las siguientes consultas NO obtentriamos ningún estudiante de 20 años {
+~db.estudantes.find(idade: {$lt: 21}})
+~db.estudantes.find(idade: {$lte: 20}})
+~db.estudantes.find(idade: {$gte: 20}})
+=db.estudantes.find(idade: {$ne: 20}})
+}
+4.El operador $pop sirve para eliminar elementos de un array según una condición especifica:{
+~Verdadero
+=Falso
+}
+¿Cual de estas NO es una forma de encontrar documentos haciendo web-scrapping?{
+~By.XPATH
+=By.ID_NAME
+~By.PARTIAL_LINK_TEXT
+~By.CLASS_NAME
+}

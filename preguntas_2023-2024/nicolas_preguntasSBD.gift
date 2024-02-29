@@ -1,0 +1,43 @@
+SBD
+
+1 - Es el valor promedio. Se obtiene sumando todos los valores y dividido entre el número de valores.{
+#- Media
+- Mediana
+- Moda
+}
+
+2 - Es el valor con mayor frecuencia, es decir, el que más se repite{
+- Media
+- Mediana
+#- Moda
+}
+
+3 - Es el valor que ocupa el lugar central de todos los datos (cuando están ordenados de menor a mayor). Es decir, corta los datos en dos y deja la misma cantidad de valores a cada lado.{
+- Media
+#- Mediana
+- Moda
+}
+
+4 - Siendo Q - cuartil, ¿cuanto supone Q2?{
+- El 10% de los datos
+#- El 50% de los datos
+- El 20% de los datos
+- El 25% de los datos
+}
+
+5 - Siendo Q - cuartil, ¿equivale Q2 con la media?{
+- Verdadero
+#- Falso
+}
+
+6 - Es lo mismo el cuartil de numpy que el percentil de statistics{
+#- Falso
+- Verdadero
+}
+
+7 - ¿Que mide la varianza?{
+#- La distancia con la media
+- La distancia con la mediana
+- La distancia con la moda
+- La distancia con la covarianza
+}

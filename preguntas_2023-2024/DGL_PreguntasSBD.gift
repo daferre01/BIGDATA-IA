@@ -1,0 +1,35 @@
+1. Que hará la siguiente operación de pandas: |df.explode('countries')['countries'].value_counts()|
+	A: Cuenta las filas con 'countries'
+	B: Cuenta de cada fila cuantas 'countries' hay
+	-C: Crea una nueva fila por cada valor de 'countries' y cuenta cuantos hay de cada uno
+	D: Extiende 'countries' de manera que pase a ser una lista de valores
+
+2. __ (Selenium) permite sacar datos de páginas dinamicas mientras que __ (BeautifulSoup) permite en páginas estáticas
+
+3. Selenium NO permite buscar elementos directamente por:
+	A: XPath
+	B: Id
+	-C: Text
+	D: Link Text
+
+4. El WebDriver permite abrir nuevas pestañas poniendo: driver.execute_script('windows.open(URL)'), después el driver tendrá el FOCO a esa pestaña directamente:
+	A: Verdadero
+	-B: Falso
+
+5. El WebDriver permite ejecutar el navegador por debajo siendo capaz de ejecutarlo sin que nosotros veamos el apartado visual:
+	-A: Verdadero
+	B: Falso
+
+6. pd.DataFrame(x.find({})) siendo x una colección de MongoDB ¿Funcionará o dará un pete?
+	-A: Funciona
+	B: Peta
+
+7. Pandas permite leer directamente una URL sin necesidad de BeautifulSoup para sacar los datos:
+	A: Verdadero
+	-B: Falso
+
+8. La __(moda) es el valor que más se repite en un listado
+
+9. El segundo cuartil es el __ (50)% del conjunto
+
+10. Es el valor que coincide en el centro del conjunto de datos es la __(moda)

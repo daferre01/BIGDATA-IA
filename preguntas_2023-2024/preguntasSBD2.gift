@@ -1,0 +1,34 @@
+1. La moda es:{
+=Una medida de tendencia central
+~El valor que menos se repite en un dominio de numeros cerrado
+~La diferencia entre la media y la mediana
+}
+
+2. Es correcto utilizar la media como medida de tendencia cenral en el caso de que la mayoria de valores sean regulares salvo unoos pocos que superan con creces el resto de valores{
+~verdadero
+=Falso
+}
+
+3. ¿Se pueden ejecutar scripts externos mediante %run en un notebook de jupyter-lab?{
+=verdadero
+~Falso
+}
+
+4. La  _____ {=%media} se calcula, primeramente sumando todos los datos y luego dividiendo por la cantidad de observaciones.
+
+5. Es posible utilizar selenium para scarpear webs dinámicas(con tecnicas de JavaScript), mientras que beautifulsoup esta pensado para webs estáticas{
+=verdadero
+~Falso
+~Depende del caso
+}
+
+6. Es una buena practica realizar tiempos de espera cuando estamos scrapeando webs dinamicas{
+=Verdadero
+~Falso
+}
+
+7. El segundo cuartil concide con la {=%mediana}
+
+
+
+

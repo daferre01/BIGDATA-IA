@@ -1,0 +1,29 @@
+Preguntas BDA:
+Cual de estas lineas de MongoDB sirve para ordenar de menor a mayor {
+	-db.collection.find().sort({data:<>})
+	-db.collection.find().sort({data:downward})
+	=db.collection.find().sort({data:1})
+	-db.collection.find().sort({data:-1})
+}
+Si quieres actualizar un documento o en el caso de que no exista insertar uno nuevo. ¿Que deberias de utilizar?{
+	-updateOne
+	-unSet
+	-replaceOne
+	=upSert
+}
+Para encender un docker apagado tenemos utilizar el comando{
+=docker start + container ID
+~docker run + container ID
+~docker turn on + container ID
+~docker open + container ID
+}
+Cual es el mejor operador para buscar elemententos dentro o fuera de un array{
+~$in
+=$elemMatch
+~$match
+~$all
+}
+Apache Kafka es un middleware de mensajeria entre sistemas que facilita la comunicación mediante un sistemas de colas{
+=Verdadero
+~Falso
+}

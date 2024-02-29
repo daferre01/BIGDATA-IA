@@ -1,0 +1,29 @@
+Selenium é un proxecto de código aberto. Ofrece unha ferramenta de reprodución para crear probas funcionais na maioría dos navegadores web modernos, sen necesidade de aprender unha linguaxe de script de proba.{
+=Verdadero.
+~Falso.
+}
+Beautiful Soup es una biblioteca de Java para extraer datos de documentos HTML y XML (incluyendo los que tienen un marcado incorrecto). Esta biblioteca crea un árbol con todos los elementos del documento y puede ser utilizado para extraer información. Por lo tanto, esta biblioteca es útil para realizar web scraping{
+~Verdadero.
+=Falso.
+}
+Árbol del Modelo de Objetos del Documento (DOM) representa un documento con un árbol lógico. Cada rama del árbol termina en un nodo y cada nodo contiene objetos.{
+=Verdadero.
+~Falso.
+}
+Los métodos DOM permiten el acceso programático al árbol. Con ellos, puede cambiar la estructura, el estilo o el contenido del documento..{
+=Verdadero.
+~Falso.
+}
+Que fai?
+for s in string.punctuation: puntFora.append(str(s))
+Engade carácteres á lista 'puntFora' do string.punctuation.
+{
+=Verdadero
+~Falso
+}
+driver.find_elements(By.CLASS_NAME, 'titular'){
+~Atopa o primer elemento que teña como CLASS_NAME 'titular'
+~Atopa todos os elementos 'titular' do Class_NAME
+~A opción by.CLASS_NAME non existe.
+=Atopa todos os elementos que teñan como CLASS_NAME 'titular'
+}

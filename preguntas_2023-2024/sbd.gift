@@ -1,0 +1,55 @@
+En canto as esperas en Selenium cal NON é un tipo de espera:
+~Espera Implícita
+~Espera Explícita
+=Espera Estática
+~Espera fluida
+
+selenium.webdriver.common.by permite seleccionar/filtrar atendendo a unha das seguintes propiedades - parametros:
+=CSS Selector — By.CSS_SELECTOR
+~Class Value — By.VALUE_NAME
+~List — By.List
+~Linked Text — By.LINKED_TEXT
+
+Cal das seguintes é correcta:
+~driver.find_element(by=By.ID, value="id_username").send_key(USUARIO)
+~driver.find_element(by=By.ID, value=id_password).send_keys("CONTRASINAL")
+=driver.find_element(by=By.ID, value="id_domain").send_keys("hpc")
+
+Xa conectados a base de datos de MongoDB a través de pymongo como se ven los nombres de la colección:
+~print (db_exemplo.count())
+~print (db_exemplo.collection_names())
+=print (db_exemplo.list_collection_names())
+~print (db_exemplo.count_documents())
+
+Cal das seguintes busquedas NON é correcta:
+~select.select_by_visible_text('Leopoldo Calvo Sotelo')-Por texto
+~select.select_by_value('2')-Por valor
+~select.select_by_index(3)-Por indice
+=select.select_by_time(3)-Por tempo
+
+Como se xera en selenium unha captura de pantalla:
+=driver.save_screenshot('link')
+=driver.save_screen('link')
+=driver.screen('link')
+=driver.screenshot('link')
+
+O seguinte cacho de codigo de código que tipo de espera implementa:
+        wait = WebDriverWait(driver, 10)
+        element = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/label")))
+~Implícita
+=Explícita
+
+Las medidas de tendencia central son:
+=Media,mediana y moda
+~Media,mediana
+~Mediana y moda
+
+Dame una medida de dispersión:
+~Media
+~Moda
+~Mediana
+=Varianza
+
+Que fai: df.quantile(0.75):
+~Devolve o primeiro percentil
+=Devolve o terceiro percentil

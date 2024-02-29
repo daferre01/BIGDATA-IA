@@ -1,0 +1,42 @@
+¿Cuál es la función principal de Apache Kafka?{
+~Almacenar datos estáticos.
+~Procesar datos en lotes.
+=Transmitir datos en tiempo real.
+~Crear bases de datos relacionales.
+}
+
+¿Cuál de las siguientes afirmaciones describe mejor a Apache Kafka?{
+~Es un sistema de gestión de bases de datos relacionales.
+~Es una plataforma para el procesamiento en lotes de datos.
+=Es un sistema de mensajería distribuida para la transmisión de datos en tiempo real.
+}
+
+¿Cuál es el principal patrón de diseño utilizado en Apache Kafka?{
+~Patrón Singleton.
+~Patrón MVC.
+=Patrón Productor/Consumidor.
+}
+
+¿Cuál es el propósito principal de Apache Flume?{
+~Procesar datos en tiempo real.
+=Facilitar la integración de datos en sistemas de Big Data.
+~Realizar análisis predictivos sobre datos históricos.
+}
+
+¿Qué componente de Apache Flume se encarga de la recolección y transporte de datos desde diversas fuentes hacia un destino?{
+=Agente.
+~Canal.
+~Fuente.
+}
+
+¿Cuál de las siguientes afirmaciones describe mejor a Docker?{
+~Es un sistema operativo.
+=Es una plataforma de contenerización.
+~Es un sistema de gestión de bases de datos.
+}
+
+¿Cuál es el principal beneficio de utilizar Docker en el desarrollo de aplicaciones?{
+~Mayor uso de recursos del sistema.
+=Aislamiento de aplicaciones y sus dependencias.
+~Requerimiento de instalación de máquinas virtuales.
+}

@@ -1,0 +1,38 @@
+Selecciona la incorrecta: La libreria de selenium se utiliza para...
+~Recorrer una pagina web
+~Descargar datos de un pagina web
+=Ayuda a la gestion de una base de datos
+~Consultar datos de una web
+
+Que hace el siguiente comando de BeautifulSoup: soup.find(id="ResultsContainer")
+=Encuentra los elementos por id
+~Selecciona un elemento con ese id
+~Borra los elementos con ese id 
+~Crea un nuevo elemento con ese id
+
+Que hace el siguiente comando de selenium: driver.find_element(by=By.ID, value="id_username").send_keys(USUARIO)
+=Busca el elemento con ese id y le manda la clave especificada
+~Encuentra una lista de elementos con ese id y le manda la clave especificada
+~Encuentra el elemento especificado
+~Ninguna es correcta
+
+Que es la moda?
+~El promedio de los valores
+~El numero que se encuentra justo en la mitad de los datos
+=El número que se presenta con más frecuencia en un conjunto de datos
+~Ninguna es correcta
+
+La siguiente consulta sirve para actualizar un unico usuario:   db.estudantes.insertOne( {
+       nome: 'Juan', 
+       apelidos: 'Sánchez',
+       idade: 19,
+       titor: 'Jose Sánchez', 
+       modulos: ['Big Data Aplicado', 'Sistemas de Big Data']
+})
+=Falso
+~Verdadero
+
+Este comando de mongodb muestra todas las filas de la bd de coviditalia: covid> db.coviditalia.find({}).limit(3)
+=Falso
+~Verdadero
+

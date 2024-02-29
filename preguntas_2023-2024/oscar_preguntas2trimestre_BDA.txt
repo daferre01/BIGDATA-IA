@@ -1,0 +1,27 @@
+¿Que es Kafka?
+=E unha plataforma distribuída de transmisión de datos
+~Un tipo de base de datos
+~Una plataforma de almacenamiento de datos
+~Una libreria pra solucionar problemas de trasnmision de datos
+
+¿Que problema soluciona Kafka?
+=La transmision de datos entre consumidores y productores
+~Solo la transmision de datos del productor
+~Solo la transmision de datos del consumidor
+~Ninguna es correcta
+
+¿Qué es Hive?
+=Una infraestructura de almacenamiento de datos construida sobre Hadoop para proporcionar agrupación, consulta, y análisis de datos
+~Una infraestructura de almacenamiento de datos para proporcionar agrupación, consulta, y análisis de datos
+~Un tipo de lenguaje SQL que permite la agrupación, consulta, y análisis de datos
+~Todas son correctas
+
+Hive proporciona unha estrutura baseada en táboas sobre HDFS
+=Verdadero
+~Falso
+
+Cual de las siguientes opciones sobre sqoop no es correcta:
+~exportar una tabla
+~importar una tabla
+~listar tablas
+=crear usuarios
