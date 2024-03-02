@@ -1,0 +1,494 @@
+1. ¿Cuál de las siguientes bibliotecas de Python se utiliza comúnmente para conectarse a MongoDB?
+   a) pymongo
+   b) sqlalchemy
+   c) requests
+   Respuesta correcta: a) pymongo
+
+2. ¿Qué método de pymongo se utiliza para establecer una conexión con una base de datos MongoDB?
+   a) connect()
+   b) create_connection()
+   c) MongoClient()
+   Respuesta correcta: c) MongoClient()
+
+3. ¿Cuál de las siguientes afirmaciones describe mejor a Pandas?
+   a) Una biblioteca para manipulación y análisis de datos en Python.
+   b) Una base de datos NoSQL.
+   c) Una biblioteca para visualización de datos en Python.
+   Respuesta correcta: a) Una biblioteca para manipulación y análisis de datos en Python.
+
+4. ¿Qué método de Pandas se utiliza para cargar datos desde una base de datos MongoDB?
+   a) read_sql()
+   b) read_mongo()
+   c) read_csv()
+   Respuesta correcta: b) read_mongo()
+
+5. ¿Cuál de las siguientes estructuras de datos es utilizada comúnmente para representar datos en Pandas?
+   a) DataFrame
+   b) Array
+   c) Dictionary
+   Respuesta correcta: a) DataFrame
+
+6. ¿Qué método de Pandas se utiliza para guardar un DataFrame en un archivo CSV?
+   a) to_csv()
+   b) save_csv()
+   c) exportar_csv()
+   Respuesta correcta: a) to_csv()
+
+7. ¿Qué función de Pandas se utiliza para eliminar filas con valores nulos de un DataFrame?
+   a) dropna()
+   b) remove_nulls()
+   c) clean_data()
+   Respuesta correcta: a) dropna()
+
+8. ¿Qué método de Pandas se utiliza para calcular el promedio de una columna en un DataFrame?
+   a) mean()
+   b) average()
+   c) median()
+   Respuesta correcta: a) mean()
+
+9. ¿Qué método de Pandas se utiliza para ordenar un DataFrame por los valores de una columna específica?
+   a) sort_values()
+   b) order_by()
+   c) sort()
+   Respuesta correcta: a) sort_values()
+
+10.¿Qué función de Pandas se utiliza para convertir una columna que contiene listas en varias filas duplicando las demás columnas?
+   a) expand
+   b) split
+   c) explode
+
+1. Que hará la siguiente operación de pandas: |df.explode('countries')['countries'].value_counts()|
+	A: Cuenta las filas con 'countries'
+	B: Cuenta de cada fila cuantas 'countries' hay
+	-C: Crea una nueva fila por cada valor de 'countries' y cuenta cuantos hay de cada uno
+	D: Extiende 'countries' de manera que pase a ser una lista de valores
+
+2. __ (Selenium) permite sacar datos de páginas dinamicas mientras que __ (BeautifulSoup) permite en páginas estáticas
+
+3. Selenium NO permite buscar elementos directamente por:
+	A: XPath
+	B: Id
+	-C: Text
+	D: Link Text
+
+4. El WebDriver permite abrir nuevas pestañas poniendo: driver.execute_script('windows.open(URL)'), después el driver tendrá el FOCO a esa pestaña directamente:
+	A: Verdadero
+	-B: Falso
+
+5. El WebDriver permite ejecutar el navegador por debajo siendo capaz de ejecutarlo sin que nosotros veamos el apartado visual:
+	-A: Verdadero
+	B: Falso
+
+6. pd.DataFrame(x.find({})) siendo x una colección de MongoDB ¿Funcionará o dará un pete?
+	-A: Funciona
+	B: Peta
+
+7. Pandas permite leer directamente una URL sin necesidad de BeautifulSoup para sacar los datos:
+	A: Verdadero
+	-B: Falso
+
+8. La __(moda) es el valor que más se repite en un listado
+
+9. El segundo cuartil es el __ (50)% del conjunto
+
+10. Es el valor que coincide en el centro del conjunto de datos es la __(moda)
+1 - Es el valor promedio. Se obtiene sumando todos los valores y dividido entre el número de valores.{
+#- Media
+- Mediana
+- Moda
+}
+
+2 - Es el valor con mayor frecuencia, es decir, el que más se repite{
+- Media
+- Mediana
+#- Moda
+}
+
+3 - Es el valor que ocupa el lugar central de todos los datos (cuando están ordenados de menor a mayor). Es decir, corta los datos en dos y deja la misma cantidad de valores a cada lado.{
+- Media
+#- Mediana
+- Moda
+}
+
+4 - Siendo Q - cuartil, ¿cuanto supone Q2?{
+- El 10% de los datos
+#- El 50% de los datos
+- El 20% de los datos
+- El 25% de los datos
+}
+
+5 - Siendo Q - cuartil, ¿equivale Q2 con la media?{
+- Verdadero
+#- Falso
+}
+
+6 - Es lo mismo el cuartil de numpy que el percentil de statistics{
+#- Falso
+- Verdadero
+}
+
+7 - ¿Que mide la varianza?{
+#- La distancia con la media
+- La distancia con la mediana
+- La distancia con la moda
+- La distancia con la covarianza
+}
+Selecciona la incorrecta: La libreria de selenium se utiliza para...
+~Recorrer una pagina web
+~Descargar datos de un pagina web
+=Ayuda a la gestion de una base de datos
+~Consultar datos de una web
+
+Que hace el siguiente comando de BeautifulSoup: soup.find(id="ResultsContainer")
+=Encuentra los elementos por id
+~Selecciona un elemento con ese id
+~Borra los elementos con ese id 
+~Crea un nuevo elemento con ese id
+
+Que hace el siguiente comando de selenium: driver.find_element(by=By.ID, value="id_username").send_keys(USUARIO)
+=Busca el elemento con ese id y le manda la clave especificada
+~Encuentra una lista de elementos con ese id y le manda la clave especificada
+~Encuentra el elemento especificado
+~Ninguna es correcta
+
+Que es la moda?
+~El promedio de los valores
+~El numero que se encuentra justo en la mitad de los datos
+=El número que se presenta con más frecuencia en un conjunto de datos
+~Ninguna es correcta
+
+La siguiente consulta sirve para actualizar un unico usuario:   db.estudantes.insertOne( {
+       nome: 'Juan', 
+       apelidos: 'Sánchez',
+       idade: 19,
+       titor: 'Jose Sánchez', 
+       modulos: ['Big Data Aplicado', 'Sistemas de Big Data']
+})
+=Falso
+~Verdadero
+
+Este comando de mongodb muestra todas las filas de la bd de coviditalia: covid> db.coviditalia.find({}).limit(3)
+=Falso
+~Verdadero
+
+¿El operador $unwind en una operacion de aggregate que función realiza?{
+=Deconstruye un array del input a un output
+~Deconstruye un objeto del input a un output
+~Deconstruye un string de input a palabras individuales en un output
+~Ninguna es correcta
+}
+¿Si quisieramos contar la cantidad de algo en una base de datos de mongo que operadores usariamos?{
+~$count
+~$sum
+~$group y $count
+=$group y $sum
+}
+Con cual de las siguientes consultas NO obtentriamos ningún estudiante de 20 años {
+~db.estudantes.find(idade: {$lt: 21}})
+~db.estudantes.find(idade: {$lte: 20}})
+~db.estudantes.find(idade: {$gte: 20}})
+=db.estudantes.find(idade: {$ne: 20}})
+}
+4.El operador $pop sirve para eliminar elementos de un array según una condición especifica:{
+~Verdadero
+=Falso
+}
+¿Cual de estas NO es una forma de encontrar documentos haciendo web-scrapping?{
+~By.XPATH
+=By.ID_NAME
+~By.PARTIAL_LINK_TEXT
+~By.CLASS_NAME
+}
+¿Cuál de las siguientes afirmaciones describe mejor Selenium WebDriver?
+{
+~Una herramienta para la automatización de procesos de negocio.
+~Un entorno de desarrollo integrado (IDE) para escribir scripts de automatización.
+=Una interfaz de programación que permite interactuar con navegadores web.
+}
+
+¿Cuál es el principal lenguaje de programación compatible con Selenium WebDriver?
+{
+~Java.
+~C#.
+=Python.
+}
+
+¿Cuál de las siguientes estadísticas describe mejor la tendencia central de un conjunto de datos?
+{
+=Media.
+~Mediana.
+~Moda.
+}
+
+Si tienes el siguiente conjunto de datos: 5, 8, 10, 10, 12, 15, ¿cuál es la mediana?
+{
+~8.
+=10.
+~12.
+}
+
+¿Qué medida de tendencia central es más resistente a los valores atípicos en un conjunto de datos?
+{
+~Media.
+=Mediana.
+~Moda.
+}
+
+Si tienes el siguiente conjunto de datos: 2, 4, 4, 6, 6, 6, 8, ¿cuál es la moda?
+{
+~2.
+~4.
+=6.
+}
+
+¿Cuál es la fórmula matemática para calcular la media de un conjunto de datos?
+{
+=Sumar todos los valores y dividir por la cantidad de valores.
+~Ordenar los valores y seleccionar el valor central.
+~El valor que aparece con mayor frecuencia en el conjunto de datos.
+}
+
+¿Qué medida de tendencia central es más afectada por valores extremos en un conjunto de datos?
+{
+=Media.
+~Mediana.
+~Moda.
+}
+1)	Como se realiza un filtrado en Mongo DB ?
+a)	db.estudantes.find( { titor: { $in : [ “Emilio”, “Manuel” ] } } ) #
+b)	db.estudantes.find( { titor: { $between : [ “Emilio”, “Manuel” ] } } )
+c)	db.estudantes.find( { titor: { $in : { [ “Emilio”] and [“Manuel” ] } } } )
+
+2)	O operador para filtrado de MongoDB de Maior igual é (  $gte  ).
+
+3)	Como podemos filtrar os estudantes que sexan do titor “Manolito” e teñan máis de 32 anos?
+a)	Db.estudantes.find( { titor: “Manolito”, idade: { $gte: 32 } } )
+b)	Db.estudantes.aggregate( { titor: “Manolito”, idade: { $gt: 20 } } )
+c)	Db.estudantes.find( { titor: “Manolito”} and { idade: { $gt: 20 } } } )
+d)	Db.estudantes.find( { titor: “Manolito”, idade: { $gt: 20 } } ) #
+
+4)	Cal é a función do operador $out?
+a)	Mete elementos resultantes nunha colección nova. #
+b)	Corta os elementos resultantes dunha colección orixe e pégaos nunha colección nova.
+c)	Exporta os elementos resultantes dunha db a outra.
+ 
+5)	Por defecto unha transacción ten un tempo máximo de (1 minuto) tras a primeira (escritura).
+
+6)	Estar acostumado a empregar transaccións con MongoDB é unha boa práctica?
+a)	Non, xa que isto pode aumentar a latencia do sistema. #
+b)	Sí, pola ventaxa da alta flexibilidade de almacenar datos en JSON e pola súa escabilidade horizontal.
+
+7)	En MongoDB pódese crear índices compostos de dúas ou máis chaves?
+a)	Non, como máximo só se poden crear índices compostos ata 2 chaves.
+b)	Sí, pódense facer. #
+c)	Non, MongoDB só permite establecer índices para unha chave.
+
+8)	Como se poden mostrar os índices dunha colección?
+a)	Db.estudantes.getIndexes()#
+b)	Db.estudantes.showIndexes()
+c)	Db.estudantes.indexes
+
+9)	Que fai o operador $pull de MongoDB?
+a)	Borra dun array tódolos valores que cumplen unha condición. #
+b)	Borra dun array o último ou o primeiro elemento según o que se lle especifique (1, -1).
+c)	Importa unha cantidade especificada de datos dunha colección a outra.
+
+10)	Cal é a funcionalidade do operador $upsert ?
+a)	Reemplaza un documento con datos por outro.
+b)	Se encontra un documento con datos manteno e borra os novos cambio.
+c)	Inserta un documento cos datos se non atopa un. #
+1. ¿Cuál de las siguientes afirmaciones es INCORRECTA?
+~La media es la suma de todos los valores dividida por el número de datos.
+~La mediana es el valor que divide al conjunto de datos en dos mitades iguales.
+~La moda es el valor que más se repite en un conjunto de datos.
+=Los cuartiles son valores que dividen al conjunto de datos en cuatro partes iguales.
+
+2. Un conjunto de datos tiene una media de 10 y una mediana de 11. ¿Qué podemos concluir?
+~La mayoría de los datos son mayores que 10.
+~La mayoría de los datos son menores que 11.
+~La distribución de los datos es simétrica.
+=La distribución de los datos es asimétrica a la derecha.
+
+3. ¿Cuál de las siguientes medidas es más sensible a la presencia de valores atípicos?
+=La media
+~La mediana
+~La moda
+~Los cuartiles
+
+
+4. El tercer cuartil (Q3) de un conjunto de datos representa:
+
+~El valor que divide al conjunto de datos en dos mitades iguales.
+~El valor que deja por debajo el 25% de los datos.
+=El valor que deja por debajo el 75% de los datos.
+~El valor que deja por debajo el 50% de los datos.
+
+1. Para conectar con mongodb deesde python cuales son los tres parametros que debemos pasar en la siguiente cadena:
+    cli_mongo = MongoClient(f"mongodb+srv://{______}:{______}@{______}/test")
+
+~ USERNAME , PASSWORD , TABLE
+
+~ SERVER , USERNAME , PASSWORD
+
+~ HOST, USERNAME, TABLE
+
+= USERNAME , PASSWORD , HOST   
+
+2.- Que biblioteca de Python es mas adecudad para escrapear webs con formularios y botones 
+
+~ BeautifulSoup
+
+= Selenium 
+
+~ Requests
+
+~ Urllib
+
+3. Que utilizamos en selenium para esperar a que aparezca un elemento en la pagina antes de interactuar con el?
+
+~ time.sleep()
+
+~ .sleep()
+
+= WebDriverWait
+
+~ Wait
+
+4. Cual de estas maneras no podemos hacer un find_element en Selenium utilizando By.?
+
+~ By.ID
+
+~ By.ClassName
+
+= By.Xpath
+
+~ By.XPATH
+
+5. Que libreria de python se utiliza para scraping en paginas web?
+
+~ Matplotlib
+
+~ Time
+
+~ Pandas
+
+= Selenium
+
+
+
+1. La moda es:{
+=Una medida de tendencia central
+~El valor que menos se repite en un dominio de numeros cerrado
+~La diferencia entre la media y la mediana
+}
+
+2. Es correcto utilizar la media como medida de tendencia cenral en el caso de que la mayoria de valores sean regulares salvo unoos pocos que superan con creces el resto de valores{
+~verdadero
+=Falso
+}
+
+3. ¿Se pueden ejecutar scripts externos mediante %run en un notebook de jupyter-lab?{
+=verdadero
+~Falso
+}
+
+4. La  _____ {=%media} se calcula, primeramente sumando todos los datos y luego dividiendo por la cantidad de observaciones.
+
+5. Es posible utilizar selenium para scarpear webs dinámicas(con tecnicas de JavaScript), mientras que beautifulsoup esta pensado para webs estáticas{
+=verdadero
+~Falso
+~Depende del caso
+}
+
+6. Es una buena practica realizar tiempos de espera cuando estamos scrapeando webs dinamicas{
+=Verdadero
+~Falso
+}
+
+7. El segundo cuartil concide con la {=%mediana}
+
+En canto as esperas en Selenium cal NON é un tipo de espera:
+~Espera Implícita
+~Espera Explícita
+=Espera Estática
+~Espera fluida
+
+selenium.webdriver.common.by permite seleccionar/filtrar atendendo a unha das seguintes propiedades - parametros:
+=CSS Selector — By.CSS_SELECTOR
+~Class Value — By.VALUE_NAME
+~List — By.List
+~Linked Text — By.LINKED_TEXT
+
+Cal das seguintes é correcta:
+~driver.find_element(by=By.ID, value="id_username").send_key(USUARIO)
+~driver.find_element(by=By.ID, value=id_password).send_keys("CONTRASINAL")
+=driver.find_element(by=By.ID, value="id_domain").send_keys("hpc")
+
+Xa conectados a base de datos de MongoDB a través de pymongo como se ven los nombres de la colección:
+~print (db_exemplo.count())
+~print (db_exemplo.collection_names())
+=print (db_exemplo.list_collection_names())
+~print (db_exemplo.count_documents())
+
+Cal das seguintes busquedas NON é correcta:
+~select.select_by_visible_text('Leopoldo Calvo Sotelo')-Por texto
+~select.select_by_value('2')-Por valor
+~select.select_by_index(3)-Por indice
+=select.select_by_time(3)-Por tempo
+
+Como se xera en selenium unha captura de pantalla:
+=driver.save_screenshot('link')
+=driver.save_screen('link')
+=driver.screen('link')
+=driver.screenshot('link')
+
+O seguinte cacho de codigo de código que tipo de espera implementa:
+        wait = WebDriverWait(driver, 10)
+        element = wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/label")))
+~Implícita
+=Explícita
+
+Las medidas de tendencia central son:
+=Media,mediana y moda
+~Media,mediana
+~Mediana y moda
+
+Dame una medida de dispersión:
+~Media
+~Moda
+~Mediana
+=Varianza
+
+Que fai: df.quantile(0.75):
+~Devolve o primeiro percentil
+=Devolve o terceiro percentil
+
+Selenium é un proxecto de código aberto. Ofrece unha ferramenta de reprodución para crear probas funcionais na maioría dos navegadores web modernos, sen necesidade de aprender unha linguaxe de script de proba.{
+=Verdadero.
+~Falso.
+}
+Beautiful Soup es una biblioteca de Java para extraer datos de documentos HTML y XML (incluyendo los que tienen un marcado incorrecto). Esta biblioteca crea un árbol con todos los elementos del documento y puede ser utilizado para extraer información. Por lo tanto, esta biblioteca es útil para realizar web scraping{
+~Verdadero.
+=Falso.
+}
+Árbol del Modelo de Objetos del Documento (DOM) representa un documento con un árbol lógico. Cada rama del árbol termina en un nodo y cada nodo contiene objetos.{
+=Verdadero.
+~Falso.
+}
+Los métodos DOM permiten el acceso programático al árbol. Con ellos, puede cambiar la estructura, el estilo o el contenido del documento..{
+=Verdadero.
+~Falso.
+}
+Que fai?
+for s in string.punctuation: puntFora.append(str(s))
+Engade carácteres á lista 'puntFora' do string.punctuation.
+{
+=Verdadero
+~Falso
+}
+driver.find_elements(By.CLASS_NAME, 'titular'){
+~Atopa o primer elemento que teña como CLASS_NAME 'titular'
+~Atopa todos os elementos 'titular' do Class_NAME
+~A opción by.CLASS_NAME non existe.
+=Atopa todos os elementos que teñan como CLASS_NAME 'titular'
+}

@@ -1,0 +1,494 @@
+______________________________________________________________________________________
+PREGUNTAS BDA
+______________________________________________________________________________________
+
+1. ¿Cuál es el tipo de base de datos que representa MongoDB?
+   - A) Relacional
+   - B) No relacional
+   - C) SQL
+
+   Respuesta Correcta: B) No relacional
+
+2. ¿Qué lenguaje se utiliza principalmente para escribir consultas en Hive?
+   - A) SQL
+   - B) Java
+   - C) Python
+
+   Respuesta Correcta: A) SQL
+
+3.  ¿Cuál es el propósito principal de Apache Flume?
+   - A) Procesamiento de datos en tiempo real
+   - B) Recopilación y agregación de datos de registro
+   - C) Almacenamiento distribuido de datos
+
+   Respuesta Correcta: B) Recopilación y agregación de datos de registro
+
+4. ¿Qué rol cumple Kafka en la arquitectura de procesamiento de datos?
+   - A) Base de datos relacional
+   - B) Sistema de mensajería distribuida
+   - C) Herramienta de procesamiento de consultas
+
+   Respuesta Correcta: B) Sistema de mensajería distribuida
+
+5. ¿Qué significa HDFS en el contexto de Hadoop?
+   - A) Hadoop Distributed File System
+   - B) High Data File Storage
+   - C) Hadoop Data File Server
+
+   Respuesta Correcta: A) Hadoop Distributed File System
+
+6.  ¿Cómo se representan los datos en MongoDB?
+   - A) En tablas
+   - B) En colecciones y documentos
+   - C) En filas y columnas
+
+   Respuesta Correcta: B) En colecciones y documentos
+
+7. ¿Cuál es el componente principal de Hive que realiza la traducción de consultas SQL a tareas MapReduce?
+   - A) Metastore
+   - B) Hive CLI
+   - C) Hive Query Compiler
+
+   Respuesta Correcta: C) Hive Query Compiler
+
+8.  ¿Cuál es el agente principal en Apache Flume?
+   - A) Collector
+   - B) Source
+   - C) Channel
+
+   Respuesta Correcta: B) Source
+
+9.  ¿Cuál es el término utilizado para describir un grupo de servidores Kafka que trabajan juntos?
+   - A) Grupo de consumidores
+   - B) Clúster
+   - C) Tema
+
+   Respuesta Correcta: B) Clúster
+
+10. ¿Qué tipo de archivos se almacenan típicamente en HDFS?
+   - A) Archivos pequeños
+   - B) Archivos grandes y fragmentados
+   - C) Archivos de texto plano solamente
+
+   Respuesta Correcta: B) Archivos grandes y fragmentados
+
+HIVE:{
+~A. Apache Hive é un proxecto de software de almacén de datos, construído sobre Apache Hadoop para proporcionar consulta e análise de datos.
+~B. Hive ofrece unha interface semellante a SQL para consultar os datos almacenados en varias bases de datos e sistemas de ficheiros que se integran con Hadoop.
+~C. Hive ofrece unha interface semellante ó No-SQL para consultar os datos almacenados en varias bases de datos e sistemas de ficheiros que se integran con Hadoop.
+=D. A e B son correctos.}
+}
+Sqoop es una aplicación con interfaz de línea de comando para transferir datos entre bases de datos relacionales y Hadoop.1​ Soporta cargas incrementales de una sola tabla o de una consulta no-SQL en formato libre así como trabajos almacenados que pueden ser ejecutados múltiples veces para importar las actualizaciones realizadas en una base de datos desde la última importaciónn:{
+~Verdadero.
+=Falso.
+}
+Apache Kafka tiene como objetivo proporcionar una plataforma unificada, de bajo rendimiento y de alta latencia para la manipulación en tiempo real de fuentes de datos.{
+~Verdadero.
+=Falso.
+}
+Apache Flume es un servicio distribuido, fiable, y altamente disponible para recopilar, agregar, y mover eficientemente grandes cantidades de datos. Tiene una arquitectura sencilla y flexible basada en flujos de datos en streaming. Utiliza un modelo de datos sencillo y extensible que permite la creación de aplicaciones analíticas en línea.{
+=Verdadero.
+~Falso.
+}
+Laboratorio Flume en un laboratorio levantaremos un Agent Flume, con tres compoñentes: Source, Channel e Sink:{
+=Verdadero.
+~Falso
+}
+Ficheiro de configuración do Agent Flume.{
+~/flume/conf/flume.exe
+~/flume/conf/flume.info
+~/flume/conf/flume.cong
+=/flume/conf/flume.conf
+}
+Como visualizamos datos cargados en HDFS{
+=hdfs dfs -ls
+~dfs hdfs -ls
+~hdfs --ls
+~dfs -ls
+}
+Kafka vs Flume{
+~Kafka non escalable. flume non escalable.
+=Kafka fácilmente escalable. flume non escalable.
+~Kafka fácilmente escalable. flume fácilmente escalable.
+~Kafka non escalable. flume fácilmente escalable.
+}
+
+1.Cual/es no utiliza un Map Reduce a la hora de importar los datos:
+	A: Sqoop
+	B: Hive
+	-C: Kafka
+	-D: Flume
+
+2.Cual de estas no es un modo de MongoDB:
+	A: Standalone Server
+	B: Shared cluster
+	C: Replica sets
+	-D: Comunity server
+
+3. __ (ATLAS) es un servicio gratuito de almacenamiento de datos en MongoDB en línea:
+
+4. Upsert en una consulta de update permite en MongoDB:
+	A: Actualizar
+	B: Insertar
+	-C: Insertar y actualizar
+	D: Actualiza y si no nada
+
+5. Que operación no se puede hacer en el .agreggate de MongoDB:
+	A: Filtrado
+	B: Ordenación
+	C: Agrupación
+	-D: Modificación
+
+6. Apache __ (Pig) tenía un funcionamiento similar a Hive pero acualmente es menos utilizado
+
+7. La consola __ (mongosh) permite ejecutar código en la BBDD de MongoDB
+
+8. __ (Flume) permite funcionar entre un listener y un producer como por ejemplo un logger
+
+9. __ (MongoDB) funciona y guarda los archivos en formato derivados al Json
+
+10. MongoDB es un sistema de bases de datos __ (NoSQL)
+
+1 - Como se crea una base de datos en mongoDB{
+#- use nombre_database
+- create database nombre_database
+- create_database("nombre_database")
+- create_db("nombre_database")
+}
+
+2 - Como se inserta un registro en un documento{
+- db.collection_name.insert({insertar_datos})
+#- db.collection_name.insertOne({insertar_datos})
+- db.collection_name.addOne({insertar_datos})
+- db.collection_name.add({insertar_datos})
+}
+
+3 - Como se cuentan los registros{
+#- db.estudantes.countDocuments()
+- db.estudantes.count_registry()
+- db.estudantes.count_documents()
+- db.estudantes.countRegistry()
+}
+
+4 - ¿Que comando te devuelve todos los registros?{
+- db.estudantes.find()
+- db.estudantes.find({})
+#- find() y find({}) son devuelven todos los registros
+- Ninguna de las anteriores es correcta
+}
+
+5 - Para optimizar la velocidad de mongoDB tenemos que utilizar sort lo antes posible y find o $match lo mas tarde posible{
+- Verdadero
+= - Falso
+}
+
+6 - Ficheiro de configuración do Agent Flume{
+#-/flume/conf/flume.conf
+-/flume/conf/flume.info
+-/flume/conf/flume.config
+-/flume/conf/flume.sh
+}
+
+7 - Como ejecutamos un comando en hdfs{
+- hdfs dfs -comando
+- dfs -comando
+- dfs comando
+- hdfs dfs comando
+}
+
+¿Que es Kafka?
+=E unha plataforma distribuída de transmisión de datos
+~Un tipo de base de datos
+~Una plataforma de almacenamiento de datos
+~Una libreria pra solucionar problemas de trasnmision de datos
+
+¿Que problema soluciona Kafka?
+=La transmision de datos entre consumidores y productores
+~Solo la transmision de datos del productor
+~Solo la transmision de datos del consumidor
+~Ninguna es correcta
+
+¿Qué es Hive?
+=Una infraestructura de almacenamiento de datos construida sobre Hadoop para proporcionar agrupación, consulta, y análisis de datos
+~Una infraestructura de almacenamiento de datos para proporcionar agrupación, consulta, y análisis de datos
+~Un tipo de lenguaje SQL que permite la agrupación, consulta, y análisis de datos
+~Todas son correctas
+
+Hive proporciona unha estrutura baseada en táboas sobre HDFS
+=Verdadero
+~Falso
+
+Cual de las siguientes opciones sobre sqoop no es correcta:
+~exportar una tabla
+~importar una tabla
+~listar tablas
+=crear usuarios
+Preguntas BDA:
+Cual de estas lineas de MongoDB sirve para ordenar de menor a mayor {
+	-db.collection.find().sort({data:<>})
+	-db.collection.find().sort({data:downward})
+	=db.collection.find().sort({data:1})
+	-db.collection.find().sort({data:-1})
+}
+Si quieres actualizar un documento o en el caso de que no exista insertar uno nuevo. ¿Que deberias de utilizar?{
+	-updateOne
+	-unSet
+	-replaceOne
+	=upSert
+}
+Para encender un docker apagado tenemos utilizar el comando{
+=docker start + container ID
+~docker run + container ID
+~docker turn on + container ID
+~docker open + container ID
+}
+Cual es el mejor operador para buscar elemententos dentro o fuera de un array{
+~$in
+=$elemMatch
+~$match
+~$all
+}
+Apache Kafka es un middleware de mensajeria entre sistemas que facilita la comunicación mediante un sistemas de colas{
+=Verdadero
+~Falso
+}
+¿Cuál es la función principal de Apache Kafka?{
+~Almacenar datos estáticos.
+~Procesar datos en lotes.
+=Transmitir datos en tiempo real.
+~Crear bases de datos relacionales.
+}
+
+¿Cuál de las siguientes afirmaciones describe mejor a Apache Kafka?{
+~Es un sistema de gestión de bases de datos relacionales.
+~Es una plataforma para el procesamiento en lotes de datos.
+=Es un sistema de mensajería distribuida para la transmisión de datos en tiempo real.
+}
+
+¿Cuál es el principal patrón de diseño utilizado en Apache Kafka?{
+~Patrón Singleton.
+~Patrón MVC.
+=Patrón Productor/Consumidor.
+}
+
+¿Cuál es el propósito principal de Apache Flume?{
+~Procesar datos en tiempo real.
+=Facilitar la integración de datos en sistemas de Big Data.
+~Realizar análisis predictivos sobre datos históricos.
+}
+
+¿Qué componente de Apache Flume se encarga de la recolección y transporte de datos desde diversas fuentes hacia un destino?{
+=Agente.
+~Canal.
+~Fuente.
+}
+
+¿Cuál de las siguientes afirmaciones describe mejor a Docker?{
+~Es un sistema operativo.
+=Es una plataforma de contenerización.
+~Es un sistema de gestión de bases de datos.
+}
+
+¿Cuál es el principal beneficio de utilizar Docker en el desarrollo de aplicaciones?{
+~Mayor uso de recursos del sistema.
+=Aislamiento de aplicaciones y sus dependencias.
+~Requerimiento de instalación de máquinas virtuales.
+}
+1.¿Cuál de las siguientes NO es una característica de MongoDB?
+~Es una base de datos NoSQL.
+=Es una base de datos relacional.
+~Almacena datos en documentos JSON.
+~Soporta transacciones ACID.
+
+2.¿Qué tipo de datos NO se pueden almacenar en MongoDB?
+~Cadenas de texto.
+~Números enteros.
+~Fechas.
+=Archivos binarios.
+
+3. ¿Cuál es el comando que se utiliza para insertar un documento en una colección de MongoDB?
+=db.collection.insertOne()
+~db.collection.save()
+~db.collection.update()
+~db.collection.find()
+
+4. ¿Cuál es el comando que se utiliza para encontrar documentos en una colección de MongoDB?
+~db.collection.insert()
+~db.collection.save()
+~db.collection.update()
+=db.collection.find()
+
+5. ¿Cuál es el comando que se utiliza para eliminar un documento en una colección de MongoDB?
+=db.collection.deleteOne()
+~db.collection.save()
+~db.collection.update()
+~db.collection.find()
+
+6. ¿Qué es Kafka?
+~Una base de datos NoSQL.
+=Un sistema de mensajería distribuido.
+~Un framework de desarrollo web.
+~Un lenguaje de programación.
+
+7. ¿Qué son los "topics" en Kafka?
+~Los servidores que forman parte del clúster de Kafka.
+~Las unidades de almacenamiento de datos en Kafka.
+~Los tipos de datos que se pueden enviar a través de Kafka.
+=Las categorías en las que se clasifican los mensajes en Kafka.
+
+8. ¿Qué son los "producers" en Kafka?
+~Los servidores que forman parte del clúster de Kafka.
+=Los programas que envían mensajes a Kafka.
+~Los programas que consumen mensajes de Kafka.
+~Las unidades de almacenamiento de datos en Kafka.
+
+9. ¿Qué son los "consumers" en Kafka?
+~Los servidores que forman parte del clúster de Kafka.
+~Los programas que envían mensajes a Kafka.
+=Los programas que consumen mensajes de Kafka.
+~Las unidades de almacenamiento de datos en Kafka.
+
+10. ¿Qué es ZooKeeper en el contexto de Kafka?
+~Un sistema de mensajería distribuido.
+~Un framework de desarrollo web.
+~Un lenguaje de programación.
+=Un servicio de coordinación para el clúster de Kafka.
+
+5. ¿Cuál es la principal ventaja de usar Kafka?
+~Es una base de datos NoSQL.
+=Es un sistema de mensajería escalable y tolerante a fallos.
+~Es un framework de desarrollo web.
+~Es un lenguaje de programación
+
+1.- Que significan las siglas ACID
+
+~ Atomic Consistency Isolation Durability
+
+~ Atomicity Consistency Iteration Default
+
+= Atomicity Consistency Isolation Durability
+
+~ Atomicity Consistency Inteligence Durability
+
+
+2.- Cual de estas opciones no permite borrar en mongodb
+
+~ db.coleccion.deleteOne/deleteMany(filtro, opcións)
+
+= db.collection.findManyAndDelete()
+
+~ db.collection.bulkWrite()
+
+~ db.collection.findOneAndDelete()
+
+3. Cuales son las caracteristicas de Apache Hive:
+ tipo de datos, linguaxe, particionado,JDBD e ODBC.
+
+~ Estruturados ,HiveQL, Soporta particionado, No soportados
+
+~ Desestructurados ,SQL , no soporta particionado, Soportados
+
+~ Semiestruturados ,HiveQL , Soporta particionado, Soportados
+
+= Estruturados ,HiveQL , Soporta particionado, Soportados
+
+4. Completa la siguiente consulta de mongodb para filtrar os estudantes que sexan do titor Jose Sánchez e teñan máis de 20 anos
+
+~ db.estudantes.____( {titor: "Jose Sánchez", idade: {___: 20}})
+
+= find / $gt
+
+5. Cuales de estos es un tipo de estructura que NO soporte Apache Hive?
+
+~ Táboas: directorios de HDFS
+
+~ Particións: divisións das táboas
+
+~ Buckets: divisións das particións
+
+= Oracle Database: base de datos relacional.
+
+6. Cual de las siguientes  herramientas es la mas adecuada para importar datos  en tiempo real en un sistema de análisis de big data?
+
+= Apache Kafka
+
+~ Apache Hive
+
+~ Sqoop
+
+~ Apache Hadoop
+
+7. Que herramienta usariamos para cargar datos entre Apache Hadoop y bases de datos relaccionales como MySQL?
+
+~ Apache Kafka
+
+~ Apache Hive
+
+= Sqoop
+
+~ Apache Hadoop
+
+8. Para procesar y consultar grandes conjuntos de datos estructurados, que herramienta de apache ussariamos?
+
+~ Apache Kafka
+
+= Apache Hive
+
+~ Sqoop
+
+~ Apache Hadoop
+
+9. Cual es la sintanxis correcta en MoongoDB  para buscar documentos donde la clave edad sea igual a 20?
+
+~ {edad: {$lt: 20}}
+
+~ {edad: {$lte: 20}}
+
+~ {edad: {$gt: 20}}
+
+=  {edad: 20}
+
+10. Cual es la sintanxis correcta en MoongoDB  para buscar documentos donde el valor del campo "tutor" no sea igual a "Jose Sánchez"?
+
+~ {tutor: {$lt: "Jose Sánchez"}}
+
+= {tutor: {$ne: "Jose Sánchez"}}
+
+~ {tutor: {$gt: "Jose Sánchez"}}
+
+~ {tutor: {$lte: "Jose Sánchez"}}
+
+1. Flume es util para pasar archivos en formato avro mediante escritores y escuchadores{
+=Verdadero
+~Falso
+~Solo cuando se usa mediante kafka
+}
+
+2. Kafka es una tecnología anticuada y en desuso que nos permite traducir archivos de formato bson a .json{
+~Verdadero
+=Falso
+}
+
+3. {=Kafka =IAG =kafka} es muy utilizado para el analisis de eventos de sensores en compañias a gran escala. Posee topics y canales que permiten una mejor distribiucion de los datos
+
+4. Es posible hacer consultas complejas contra apache hive (agregaciones, inner joins, etc){
+~Verdadero
+=Falso
+}
+
+5. avro utiliza un formato{
+=bson
+~json
+~xml
+}
+
+6. {=Kafka, kafka} es facilmente escalabra mientras que {=Flume,=flume} no lo es
+
+7.Es MongoDB una base de datos SQL o No-SQL:{
+~No-SQL
+=SQL
+}
+
+
+
+
