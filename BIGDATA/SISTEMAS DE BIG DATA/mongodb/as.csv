@@ -1,0 +1,11 @@
+_id,data,stato,codice_regione,denominazione_regione,codice_provincia,denominazione_provincia,sigla_provincia,lat,long,totale_casi,note,codice_nuts_1,codice_nuts_2,codice_nuts_3
+65de4520c0335f9441a54928,2020-02-24T18:00:00,ITA,13,Abruzzo,66,L'Aquila,AQ,42.351222,13.398438,0,None,None,None,None
+65de4520c0335f9441a5492c,2020-02-24T18:00:00,ITA,13,Abruzzo,979,In fase di definizione/aggiornamento,,NaN,NaN,0,None,None,None,None
+65de4520c0335f9441a5492f,2020-02-24T18:00:00,ITA,17,Basilicata,980,In fase di definizione/aggiornamento,,NaN,NaN,0,None,None,None,None
+65de4520c0335f9441a54936,2020-02-24T18:00:00,ITA,15,Campania,61,Caserta,CE,41.074659,14.332405,0,None,None,None,None
+65de4520c0335f9441a5493d,2020-02-24T18:00:00,ITA,8,Emilia-Romagna,34,Parma,PR,44.801074,10.32835,0,None,None,None,None
+65de454bc0335f9441a76cac,2022-10-08T17:00:00,ITA,10,Umbria,54,Perugia,PG,43.106758,12.388247,280659,None,ITI,ITI2,ITI21
+65de454bc0335f9441a76cb3,2022-10-08T17:00:00,ITA,5,Veneto,23,Verona,VR,45.43839,10.993527,414746,None,ITH,ITH3,ITH31
+65de454bc0335f9441a76cb4,2022-10-08T17:00:00,ITA,5,Veneto,24,Vicenza,VI,45.547497,11.545971,411235,None,ITH,ITH3,ITH32
+65de454bc0335f9441a76cb6,2022-10-08T17:00:00,ITA,5,Veneto,26,Treviso,TV,45.667546,12.245074,419455,None,ITH,ITH3,ITH34
+65de454bc0335f9441a76cb9,2022-10-08T17:00:00,ITA,5,Veneto,29,Rovigo,RO,45.071073,11.79007,99048,None
