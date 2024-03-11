@@ -1,0 +1,10 @@
+1710175095852	geckodriver	INFO	Listening on 127.0.0.1:64151
+1710175098912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DAVID~1.FER\\AppData\\Local\\Temp\\rust_mozprofileLqENcn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710175099194	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710175099297	Marionette	INFO	Listening on port 64162
+Read port: 64162
+1710175099451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8T1Km08OhS5_Tz58jKeajrFynp-IyfJlJwKv1268Sc.js line 2 > eval line 7487 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
