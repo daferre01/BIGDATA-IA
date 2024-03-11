@@ -8,3 +8,227 @@ Dynamically enable window occlusion 0
 Read port: 64162
 1710175099451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://pagead2.googlesyndication.com/bg/O8T1Km08OhS5_Tz58jKeajrFynp-IyfJlJwKv1268Sc.js line 2 > eval line 7487 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1710175129214	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript error: https://supermarioplay.com/game/ui.js?v=4.3.5, line 14: TypeError: game_iframe.contentDocument.getElementById(...) is null
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-J9S3C5L3BG&l=dataLayer&cx=c, line 480: Script terminated by timeout at:
+aa.Fh@https://www.googletagmanager.com/gtag/js?id=G-J9S3C5L3BG&l=dataLayer&cx=c:480:89
+get@https://www.googletagmanager.com/gtag/js?id=G-J9S3C5L3BG&l=dataLayer&cx=c:478:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-J9S3C5L3BG&l=dataLayer&cx=c:478:87
+aa.Yk/c/<@https://www.googletagmanager.com/gtag/js?id=G-J9S3C5L3BG&l=dataLayer&cx=c:478:412
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 46: Script terminated by timeout at:
+Sa/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:578
+Sa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:552
+Ta@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:419
+Ei/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:161:292
+n.Jd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:425
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:439
+n.o@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:223
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:859
+Bf.prototype.o@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:117:248
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:859
+sd.prototype.o@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:601
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:859
+Bf.prototype.o@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:117:248
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:859
+sd.prototype.o@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:601
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:859
+Dh/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:144:516
+Qa.prototype.ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:298
+Dh/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:144:525
+n.Jd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:425
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:439
+n.o@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:223
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:859
+Sd.prototype.ta@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:100:172
+Cd.prototype.o@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:94:1054
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:859
+Vd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:100:671
+
+1710175439124	Marionette	INFO	Stopped listening on port 64162
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
